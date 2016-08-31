@@ -56,16 +56,14 @@ body {
 }
 
 a {
-  /*color: #2236c9;*/
-  /*text-decoration: none;*/
-  /*border-bottom: 1px dashed #2236c9;*/
+  text-decoration: underline;
+  color: #851900;
 }
 
 a:hover {
-  /*text-decoration: none;*/
-  /*outline: none;*/
-  /*color: #a12323;*/
-  /*border-bottom: 1px dashed #a12323;*/
+  text-decoration: none;
+  outline: none;
+  border: none;
 }
 
 a:focus, .btn:focus {
@@ -110,17 +108,16 @@ h5{
   line-height: 53px;
   font-family: "Roboto-Regular", Arial, sans-serif;
 }
+h6{
+  font-size: 14px;
+  line-height: 53px;
+  font-family: "Roboto-Regular", Arial, sans-serif;
+}
 
 p {
   font-size: 18px;
   line-height: 34px;
 }
-
-a{
-  color: #851900;
-}
-
-
 
 .btn {
   background: #00a84a;
@@ -135,17 +132,21 @@ a{
 }
 
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .wrapper{
+  height: 3000px;
+}
+.wrapper__item{
+  width: 100%;
+  position: relative;
+}
+.center{
   margin: 0 auto;
   width: 1200px;
-  padding:0 15px;
-  height: 3000px;
-  /*outline: 1px solid black;*/
+  outline: 1px solid black;
 }
-
 .header__head{
   padding: 100px 0 60px 0;
   text-align: center;
@@ -179,24 +180,26 @@ i{
 .icon-news{
   background: url("../images/icon-news.png") center no-repeat;
 }
-
-.menu-wrapper{
-
-
+.icon-arrow-down{
+  background: url("../images/icon-arrow-down.png") center no-repeat;
 }
 .menu{
   overflow: hidden;
-  margin:0 auto;
   width: 1140px;
   height: 320px;
   background-color: #e9e9e9;
   padding: 40px 30px;
 }
+.menu a{
+  text-decoration: none;
+}
+.menu a:hover{
+  text-decoration: underline;
+}
 .shadow{
-  margin: 0 auto;
   height: 98px;
   background-image: url("../images/menu-shadow.png");
-  background-position: -15px -55px;
+  background-position: -16px -55px;
   background-repeat: no-repeat;
 }
 .menu__item{
@@ -224,4 +227,207 @@ i{
 }
 .menu .menu__item:last-child h4{
   margin-bottom: 50px;
+}
+
+/*=================collage==================*/
+.collage-wrapper{
+  text-align: center;
+  margin-top: 50px;
+  position: relative;
+}
+.collage__logo{
+  width: 215px;
+  height: 215px;
+  background: url("../images/logo.png") center no-repeat;
+  position: absolute;
+  position: absolute;
+  top: -80px;
+  left: 500px;
+}
+.scroll-mouse{
+  position: absolute;
+  right: 30px;
+  top: 130px;
+  display: inline-block;
+  background: url("../images/icon-gortati.png");
+  width: 48px;
+  height: 93px;
+}
+
+/*====================catalog=====================*/
+
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.catalog{
+  margin: 0 auto;
+  background: url("../images/catalog-bg.jpg") 0 220px repeat-x;
+  z-index: 1;
+  overflow: hidden;
+}
+.catalog-wrapper{
+  z-index: 3;
+}
+.catalog h2, .seed__head h2{
+  text-transform: none;
+  float: left;
+  padding: 0 40px;
+}
+.catalog__head a, .seed__head a{
+  line-height: 45px;
+}
+.catalog__item, .seed__item{
+  width: 200px;
+  text-align: center;
+  float: left;
+  padding: 0px 50px;
+}
+.catalog__item h4 a, .seed__item h4 a{
+  text-decoration: none;
+}
+.catalog__item .icon-box{
+  width: 160px;
+  height: 160px;
+  margin: 40px 0 40px 15px;
+  /*border:1px solid #851900;*/
+  /*border-radius: 50%;*/
+  /*-webkit-border-radius: 50%;*/
+  /*-moz-border-radius: 50%;*/
+}
+.icon-box:hover{
+  /*border:1px solid #fff;*/
+}
+.icon-box a:hover{
+  text-decoration: none;
+  border: 0;
+}
+
+/*===================Field====================*/
+.field-wrapper{
+  background: url("../images/field-bg.jpg") center no-repeat;
+}
+.field{position: relative;}
+.field .owl-controls.clickable {
+  position: absolute;
+  left: 47%;
+  bottom: 20px;
+}
+.field .owl-theme .owl-controls .owl-page span,
+.field .owl-theme .owl-controls .owl-page:hover span{
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 5px 7px;
+  background: url("../images/icon-trigger-sprite.png") 0 0 no-repeat;/*grey*/
+}
+.field .owl-theme .owl-controls .owl-page.active span {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 5px 7px;
+  background: url("../images/icon-trigger-sprite.png") 0px -23px no-repeat;/*red*/
+}
+.field h4, .field a{
+  color: #fff;
+  margin-bottom: -15px;
+}
+.field__item a {
+  margin-left: 100px;
+}
+.field__item{
+  padding: 115px 0 90px 0;
+  float: left;
+  /*position: relative;*/
+  /*overflow: hidden;*/
+}
+.field .owl-wrapper{
+  /*width: 1200px!important;*/
+}
+.field .owl-item{
+  width: 1200px!important;
+}
+.row{
+  float: left;
+  margin-top: 60px;
+}
+.col{
+  padding: 10px 7px;
+  margin: 0 49px;
+  width: 285px;
+  text-align: center;
+  float: left;
+}
+.prev, .next {
+  display: block;
+  position: absolute;
+  top: 400px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  z-index: 99999;
+}
+.prev{
+  left: 0;
+  background: url("../images/nav-arrow-sprite.png") 0 -60px no-repeat;
+}
+.prev:hover{
+  cursor: pointer;
+  background: url("../images/nav-arrow-sprite.png") 0 0 no-repeat;
+}
+.next{
+  right: 0;
+  background: url("../images/nav-arrow-sprite.png") -60px -60px no-repeat;
+}
+.next:hover{
+  cursor: pointer;
+  background: url("../images/nav-arrow-sprite.png") -60px 0 no-repeat;
+}
+
+/*===============================SEED===============================*/
+.seed__head{
+  padding-bottom: 50px;
+}
+.seed__head h2{
+  text-transform: none;
+  float: left;
+  padding: 0 40px;
+  color: #000
+}
+.seed, .seed__item h4 {
+  color: #000!important;
+}
+.owl-pagination{display: none;}
+.owl-buttons{
+  margin-top: 30px;
+}
+.owl-prev, .seed .owl-next{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin: 1px!important;
+  opacity: 1;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-prev{
+  background: url("../images/nav-arrow-sprite.png") -120px -34px no-repeat;
+  border-radius: 0;
+  padding: 0;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-prev:hover{
+  background: url("../images/nav-arrow-sprite.png") -122px -1px no-repeat;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-next{
+  background: url("../images/nav-arrow-sprite.png") -156px -2px no-repeat;
+  border-radius: 0;
+  padding: 0;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-next:hover{
+  background: url("../images/nav-arrow-sprite.png") -153px -35px  no-repeat;
+}
+.seed .icon-box{
+  width: 208px;
+  height: 208px;
+  border:1px solid #851900;
+  border-radius: 50%;
 }
