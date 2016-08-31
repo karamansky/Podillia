@@ -132,7 +132,7 @@ p {
 }
 
 section {
-  padding: 50px 0;
+  padding: 25px 0;
 }
 
 .wrapper{
@@ -270,21 +270,24 @@ i{
 .catalog-wrapper{
   z-index: 3;
 }
-.catalog h2, .seed__head h2{
+.catalog h2,
+.seed__head h2{
   text-transform: none;
   float: left;
   padding: 0 40px;
 }
-.catalog__head a, .seed__head a{
+.catalog__head a,
+.seed__head a{
   line-height: 45px;
 }
-.catalog__item, .seed__item{
+.catalog__item{
   width: 200px;
   text-align: center;
   float: left;
   padding: 0px 50px;
 }
-.catalog__item h4 a, .seed__item h4 a{
+.catalog__item h4 a,
+.seed__item h4 a{
   text-decoration: none;
 }
 .catalog__item .icon-box{
@@ -308,7 +311,9 @@ i{
 .field-wrapper{
   background: url("../images/field-bg.jpg") center no-repeat;
 }
-.field{position: relative;}
+.field{
+  position: relative;
+}
 .field .owl-controls.clickable {
   position: absolute;
   left: 47%;
@@ -329,7 +334,8 @@ i{
   margin: 5px 7px;
   background: url("../images/icon-trigger-sprite.png") 0px -23px no-repeat;/*red*/
 }
-.field h4, .field a{
+.field h4,
+.field a{
   color: #fff;
   margin-bottom: -15px;
 }
@@ -359,7 +365,8 @@ i{
   text-align: center;
   float: left;
 }
-.prev, .next {
+.prev,
+.next {
   display: block;
   position: absolute;
   top: 400px;
@@ -385,24 +392,71 @@ i{
   background: url("../images/nav-arrow-sprite.png") -60px 0 no-repeat;
 }
 
-/*===============================SEED===============================*/
-.seed__head{
+/*===============================SEED GERBICID FERTILIZERS NEWS===============================*/
+.seed__head,
+.gerbicid__head,
+.fertilizers__head,
+.news__head{
   padding-bottom: 50px;
 }
-.seed__head h2{
+.seed__head h2,
+.gerbicid__head h2,
+.fertilizers__head h2,
+.news__head h2{
+  font-family: "Roboto-Bold", Arial, sans-serif;
   text-transform: none;
   float: left;
   padding: 0 40px;
   color: #000
 }
-.seed, .seed__item h4 {
-  color: #000!important;
+.seed__head a,
+.gerbicid__head a,
+.fertilizers__head a,
+.news__head a{
+  line-height: 50px;
 }
-.owl-pagination{display: none;}
+.seed,
+.seed__item h4,
+.gerbicid,
+.gerbicid__item h4,
+.fertilizers,
+.fertilizers__item h4,
+.news,
+.news__item{
+  color: #000!important;
+  margin-top: 40px;
+}
+.seed .icon-box,
+.gerbicid .icon-box,
+.fertilizers .icon-box{
+  width: 208px;
+  height: 208px;
+  border:1px solid #851900;
+  border-radius: 50%;
+}
+.seed__item,
+.fertilizers__item,
+.gerbicid__item{
+  width: 200px;
+  text-align: center;
+  float: left;
+  padding: 0px 50px;
+}
+.seed__item h4 a,
+.gerbicid__item h4 a,
+.fertilizers__item h4 a,
+.news h4 a{
+  text-decoration: none;
+}
+
+.owl-pagination{
+  display: none;
+}
 .owl-buttons{
   margin-top: 30px;
 }
-.owl-prev, .seed .owl-next{
+.owl-prev,
+.owl-next{
   width: 30px;
   height: 30px;
   cursor: pointer;
@@ -425,9 +479,8 @@ i{
 .owl-theme .owl-controls .owl-buttons div.owl-next:hover{
   background: url("../images/nav-arrow-sprite.png") -153px -35px  no-repeat;
 }
-.seed .icon-box{
-  width: 208px;
-  height: 208px;
-  border:1px solid #851900;
-  border-radius: 50%;
+
+/*News additionally*/
+.news-wrapper{
+  background-color: #f0f0f0;
 }
