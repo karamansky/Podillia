@@ -24,9 +24,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
-body {
-  line-height: 1;
-}
 ol, ul {
   list-style: none;
 }
@@ -53,7 +50,6 @@ body {
   line-height: 34px;
   color: #000;
   -webkit-font-smoothing: antialiased;
-  height: 7000px;
 }
 
 a {
@@ -119,9 +115,13 @@ h6{
   font-family: "Roboto-Regular", Arial, sans-serif;
 }
 
-p {
+p, li {
   font-size: 18px;
   line-height: 34px;
+}
+b{
+  font-family:"Roboto-Bold";
+  font-weight: bold;
 }
 
 .btn {
@@ -151,7 +151,6 @@ section {
 .center{
   margin: 0 auto;
   width: 1200px;
-  /*outline: 1px solid black;*/
 }
 .header__head{
   padding: 100px 0 60px 0;
@@ -213,17 +212,17 @@ i{
   display: inline-block;
 }
 .menu__item p{
-  margin-top: 30px;
+  margin: 30px 0 0 40px;
+  line-height: 24px;
 }
 .menu__item2,.menu__item3,.menu__item4{
   margin-left: 60px;
-
 }
 .menu__item1{
   width: 220px;
 }
 .menu__item2{
-  width: 300px;
+  width: 340px;
 }
 .menu__item3{
   width: 200px;
@@ -233,6 +232,9 @@ i{
 }
 .menu .menu__item:last-child h4{
   margin-bottom: 50px;
+}
+.menu .icon{
+  padding: 0 10px 0 0;
 }
 
 /*=================collage==================*/
@@ -269,7 +271,7 @@ i{
 }
 .catalog{
   margin: 0 auto;
-  background: url("../images/catalog-bg.jpg") 0 220px repeat-x;
+  background: url("../images/catalog-bg.jpg") 0 190px repeat-x;
   z-index: 1;
   overflow: hidden;
 }
@@ -537,7 +539,24 @@ i{
 .lastnews__item{
   margin-bottom: 30px;
 }
-
+.lastnews_next{
+  margin: 1px;
+  width: 30px;
+  height: 30px;
+  background: url("../images/nav-arrow-sprite.png") -120px -68px no-repeat;
+}
+.lastnews_prev{
+  margin: 1px;
+  width: 30px;
+  height: 30px;
+  background: url("../images/nav-arrow-sprite.png") -153px -104px no-repeat;
+}
+.lastnews_next:hover{
+  background: url("../images/nav-arrow-sprite.png") -153px -70px no-repeat;
+}
+.lastnews_prev:hover{
+  background: url("../images/nav-arrow-sprite.png") -120px -102px no-repeat;
+}
 /*========================partners logo************************/
 .partners h5{
   position: absolute;
@@ -578,16 +597,196 @@ i{
   padding: 10px 30px 0 30px;
 }
 
+/**====================clients======================*/
 
+.clients__head{
+  padding: 50px 0 50px 0;
+}
+.clients__map{
+  height: 780px;
+  background: url("../images/ukraine-map.jpg") center no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+.region{
+  position: absolute;
+  text-align: center;
+}
+.region a{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url("../images/icon-select-region.png") center no-repeat;
+}
+.region-1{
+  left: 300px;
+  top: 150px;
+}
+.region-2{
+  left: 480px;
+  top: 190px;
+}
+.region-3{
+  left: 630px;
+  top: 210px;
+}
+.region-4{
+  left: 340px;
+  top: 280px;
+}
+.region-5{
+  left: 550px;
+  top: 350px;
+}
+.region-6{
+  left: 520px;
+  top: 450px;
+}
 
+/*======================contacts=======================*/
+.contacts-wrapper{
+  padding: 0;
+}
+.contacts .center{
+  /*padding: 0 30px;*/
+  height: inherit;
+  position: relative;
+}
+.contacts__head{
+  padding: 50px 0 50px 0;
+}
+.contacts__map{
+  height: 470px;
+  background: url("../images/contacts-map.jpg");
+}
+.contacts .pp{
+  position: absolute;
+  left: 550px;
+  top: -100px;
+  display: inline-block;
+  background-color: #dddddd;
+  padding: 65px 50px;
+  -webkit-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.41);
+  -moz-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.41);
+  box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.41);
+}
+.contacts .pp h4{
+  text-transform: none;
+}
+.contacts .phone{
+  position: absolute;
+  left: 30px;
+  top: 100px;
+  display: inline-block;
+  background-color: #861c00;
+  padding: 15px 30px;
+  color: #fff;
+  -webkit-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.41);
+  -moz-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.41);
+  box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.41);
+}
+.contacts .address{
+  position: absolute;
+  right: 30px;
+  bottom: -32px;
+  display: inline-block;
+  background-color: #00a84a;
+  padding: 15px 30px;
+  color: #fff;
+  -webkit-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.41);
+  -moz-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.41);
+  box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.41);
+  z-index: 2;
+}
+.contacts p{
+  line-height: 48px;
+}
 
-
-
-
-
-
-
-
+/*============================Footer======================*/
+footer{
+  background-color: #ddd;
+  height: 900px;
+  padding: 40px 0px;
+  overflow: hidden;
+}
+.footer__logo {
+  margin: 0 auto;
+  text-align: center;
+  width: 245px;
+}
+.footer__social{
+  text-align: center;
+}
+.footer__social ul li{
+  float: left;
+  margin-left: 15px;
+  text-align: center;
+  margin-top: 10px;
+}
+.footer__menu{
+  background-color: #ddd;
+  color: #000;
+  border-bottom:1px solid #a7a7a7;
+  height: auto;
+}
+.footer__menu li{
+  list-style: disc;
+  list-style-position: inside;
+}
+.footer__menu .menu__item{
+  float: left;
+  display: inline-block;
+}
+.footer__menu .menu__item p{
+  margin-top: 30px;
+}
+.footer__menu .menu__item2,.footer__menu .menu__item3,.footer__menu .menu__item4{
+  margin-left: 60px;
+}
+.footer__menu .menu__item1{
+  width: 230px;
+}
+.footer__menu .menu__item2{
+  width: 320px;
+}
+.footer__menu .menu__item3{
+  width: 110px;
+}
+.footer__menu .menu__item4{
+  width: 170px;
+}
+.footer__menu .menu .menu__item:last-child h4{
+  margin-bottom: 50px;
+}
+.footer__contacts{
+  padding: 40px 30px;
+  border-bottom:1px solid #a7a7a7;
+  overflow: hidden;
+}
+.footer__contacts p{
+  float: left;
+  margin-right: 60px;
+  line-height: 48px;
+}
+.footer__copy{
+  padding: 40px 30px;
+  overflow: hidden;
+}
+.footer__copy p{
+  display: inline-block;
+}
+.abdesign{
+  float: right;
+  position: relative;
+}
+.abdesign p{
+  margin-right: 80px;
+}
+.abdesign img{
+  position: absolute;
+  right: 0;
+  top: -10px;
+}
 
 
 
