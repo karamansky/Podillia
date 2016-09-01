@@ -11,7 +11,8 @@ $(function(){
 			itemClass				: ".field__item",
 			responsive			: false,
 			nav: true
-		});$(".seed-carousel").owlCarousel({
+		});
+		$(".seed-carousel").owlCarousel({
 			items 					: 4,
 			itemClass				: ".seed__item",
 			responsive			: false,
@@ -24,6 +25,14 @@ $(function(){
 		});
 		$(".next").click(function(){
 			owl.next();
+		});
+
+		$(".owl-news").owlCarousel({
+			items 					: 1,
+			itemClass				: ".item-img",
+			responsive			: false,
+			navigation 			: true,
+			navigationText	: ["",""]
 		});
 
 

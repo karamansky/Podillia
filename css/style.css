@@ -88,7 +88,11 @@ h1 {
 
 h2 {
   font-size: 40px;
-  font-family: "Roboto-Regular", Arial, sans-serif;
+  font-family: "Roboto-Bold", Arial, sans-serif;
+  text-transform: none;
+  float: left;
+  padding: 0 30px;
+  color: #000
 }
 
 h3 {
@@ -125,7 +129,8 @@ p {
   display: inline-block;
   font-size: 18px;
   font-family: "Roboto-Medium", sasn-serif;
-  padding: 23px 40px;
+  padding: 15px 40px;
+  text-decoration: none;
 }
 .btn:hover {
   background: #00803e;
@@ -294,13 +299,6 @@ i{
   width: 160px;
   height: 160px;
   margin: 40px 0 40px 15px;
-  /*border:1px solid #851900;*/
-  /*border-radius: 50%;*/
-  /*-webkit-border-radius: 50%;*/
-  /*-moz-border-radius: 50%;*/
-}
-.icon-box:hover{
-  /*border:1px solid #fff;*/
 }
 .icon-box a:hover{
   text-decoration: none;
@@ -395,24 +393,15 @@ i{
 /*===============================SEED GERBICID FERTILIZERS NEWS===============================*/
 .seed__head,
 .gerbicid__head,
-.fertilizers__head,
-.news__head{
+.fertilizers__head{
   padding-bottom: 50px;
-}
-.seed__head h2,
-.gerbicid__head h2,
-.fertilizers__head h2,
-.news__head h2{
-  font-family: "Roboto-Bold", Arial, sans-serif;
-  text-transform: none;
-  float: left;
-  padding: 0 40px;
-  color: #000
 }
 .seed__head a,
 .gerbicid__head a,
 .fertilizers__head a,
-.news__head a{
+.news__head a,
+.partners,
+.partners__item h4{
   line-height: 50px;
 }
 .seed,
@@ -433,6 +422,9 @@ i{
   height: 208px;
   border:1px solid #851900;
   border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+
 }
 .seed__item,
 .fertilizers__item,
@@ -449,14 +441,16 @@ i{
   text-decoration: none;
 }
 
-.owl-pagination{
+.seed .owl-pagination,
+.gerbicid .owl-pagination,
+.fertilizers .owl-pagination{
   display: none;
 }
 .owl-buttons{
   margin-top: 30px;
 }
-.owl-prev,
-.owl-next{
+.owl-theme .owl-controls .owl-buttons div.owl-prev,
+.owl-theme .owl-controls .owl-buttons div.owl-next{
   width: 30px;
   height: 30px;
   cursor: pointer;
@@ -480,7 +474,65 @@ i{
   background: url("../images/nav-arrow-sprite.png") -153px -35px  no-repeat;
 }
 
-/*News additionally*/
+/*=================News additionally==============*/
 .news-wrapper{
   background-color: #f0f0f0;
+}
+.newscontent-wrapper{
+  overflow: hidden;
+}
+.news__head{
+  padding-bottom: 20px;
+}
+.news__content{
+  width: 822px;
+  padding: 0 30px 30px 30px;
+  float: left;
+}
+.owl-news .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.news__rightbar{
+  padding-right: 35px;
+  width: 250px;
+  overflow: hidden;
+}
+.news__content p span.date{
+  font-size: 21px;
+  font-family:"Roboto-Regular", sans-serif;
+  color: #851900;
+}
+.news__content h4{
+  font-size: 21px;
+  font-family:"Roboto-Bold", sans-serif;
+  color: #000;
+  padding: 15px 0;
+}
+.news__content .btn{
+  margin-top: 30px;
+}
+
+.lastnews h4{
+  margin: -10px 0 20px 0;
+}
+.lastnews img{
+  float: left;
+  margin-right: 15px;
+}
+.lastnews p{
+  line-height: 29px;
+}
+.lastnews a{
+  text-decoration: none;
+  font-family: "Roboto-Regular", Arial, sans-serif;
+  color: #000;
+}
+.lastnews p span{
+  font-family: "Roboto-Light", Arial, sans-serif;
+  font-size: 15px;
+}
+.lastnews__item{
+  margin-bottom: 30px;
 }
