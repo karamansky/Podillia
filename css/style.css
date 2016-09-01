@@ -53,6 +53,7 @@ body {
   line-height: 34px;
   color: #000;
   -webkit-font-smoothing: antialiased;
+  height: 7000px;
 }
 
 a {
@@ -150,7 +151,7 @@ section {
 .center{
   margin: 0 auto;
   width: 1200px;
-  outline: 1px solid black;
+  /*outline: 1px solid black;*/
 }
 .header__head{
   padding: 100px 0 60px 0;
@@ -368,8 +369,8 @@ i{
   display: block;
   position: absolute;
   top: 400px;
-  width: 60px;
-  height: 60px;
+  width: 59px;
+  height: 59px;
   cursor: pointer;
   z-index: 99999;
 }
@@ -535,4 +536,80 @@ i{
 }
 .lastnews__item{
   margin-bottom: 30px;
+}
+
+/*========================partners logo************************/
+.partners h5{
+  position: absolute;
+  top: 30px;
+  left: -40px;
+  line-height: 18px;
+  padding: 0 0 0 40px;
+  background: url("../images/icon-arrow-left.png") 0 0 no-repeat;
+}
+.partners__head{
+  padding: 50px 0 30px 0;
+}
+.partners .partners__item{
+  border-top: 1px solid #b5b5b5;
+  border-bottom: 1px solid #b5b5b5;
+}
+.partners .partners__item:first-child{
+  border-bottom: 0;
+}
+.partners .partners__item:last-child{
+  border-top: 0;
+}
+.partners .partners__item:nth-child(2n){
+  background-color: #f0f0f0;
+}
+.partners-logos{
+  padding: 40px 30px;
+}
+.partners .logos-head{
+  display: inline-block;
+  -moz-transform: rotate(-90deg); /* Для Firefox */
+  -ms-transform: rotate(-90deg); /* Для IE */
+  -webkit-transform: rotate(-90deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(-90deg); /* Для Opera */
+  transform: rotate(-90deg);
+}
+.partners-logos img {
+  padding: 10px 30px 0 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1280px){
+  .field a.next,
+  .field a.prev{
+    display: none;
+  }
+  .partners-logos {
+    padding: 40px 0px;
+  }
+  .partners-logos img {
+    padding: auto;
+  }
 }
