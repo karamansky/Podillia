@@ -120,7 +120,7 @@ p, li {
   line-height: 34px;
 }
 b{
-  font-family:"Roboto-Bold";
+  font-family:"Roboto-Medium";
   font-weight: bold;
 }
 
@@ -141,9 +141,6 @@ section {
   padding: 25px 0;
 }
 
-.wrapper{
-  height: 3000px;
-}
 .wrapper__item{
   width: 100%;
   position: relative;
@@ -788,27 +785,79 @@ footer{
   top: -10px;
 }
 
+/*
+*       ABOUT - US 2
+************************************************/
 
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 1280px){
-  .field a.next,
-  .field a.prev{
-    display: none;
-  }
-  .partners-logos {
-    padding: 40px 0px;
-  }
-  .partners-logos img {
-    padding: auto;
-  }
+.header__logo{
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: -50px;
 }
+
+/*==================================SIDEBAR=============================*/
+
+.sidebar{
+  width: 255px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+}
+.sidebar__menu li a{
+  display: block;
+  padding: 20px 40px;
+  border-bottom: 1px solid #bcbcbc;
+  color: #000;
+  text-decoration: none;
+}
+.sidebar__menu li:hover a,
+.sidebar__menu li.active a{
+  font-family: "Roboto-Medium";
+  color: #861c00;
+}
+
+
+
+/*==================================CONTENT==================================*/
+.content{
+  overflow: hidden;
+}
+.content-text{
+  padding: 0px 15px 50px 15px;
+  width: 885px;
+  float: right;
+}
+.content-main-head{
+  margin: 0 auto;
+}
+.content-main-head h2{
+  text-align: center;
+  float: none;
+}
+.content-main-head h2 img{
+  margin-right: 15px;
+}
+.content-text h4{
+  padding: 10px 0;
+  text-align: center;
+}
+.content-text img{
+  display: block;
+  margin: 0 auto;
+}
+.content-text .image-container{
+  border-bottom:1px solid #c4c4c4;
+  margin: 35px 0;
+}
+.content-text li{
+  list-style-image: url("../images/li-style-bg.png");
+  margin-left: 15px;
+}
+
+
+
+
+
+
+
+@import url("media.css");

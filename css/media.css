@@ -1,0 +1,12 @@
+@media (max-width: 1280px){
+  .field a.next,
+  .field a.prev{
+    display: none;
+  }
+  .partners-logos {
+    padding: 40px 0px;
+  }
+  .partners-logos img {
+    padding: auto;
+  }
+}
