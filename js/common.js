@@ -36,6 +36,18 @@ $(function(){
 		});
 
 
+		//interactive hover block
+		$(".interactive__item").hover(
+				function(){
+					var target = $(this).data( "target" );
+					$(".target-interactive__item div.target"+target ).css("background-color","#dddddd");
+				},
+				function(){
+					var target = $(this).data( "target" );
+					$(".target-interactive__item div.target"+target ).css("background-color","#fff");
+				}
+		);
+
 
 
 	});
