@@ -144,12 +144,11 @@ section {
 }
 
 .wrapper__item{
-  width: 100%;
+  /*width: 100%;*/
   position: relative;
 }
 .center{
   margin: 0 auto;
-  width: 1200px;
 }
 .header__head{
   padding: 100px 0 60px 0;
@@ -189,8 +188,6 @@ i{
 }
 .menu{
   overflow: hidden;
-  width: 1140px;
-  height: 280px;
   background-color: #e9e9e9;
   padding: 40px 30px;
 }
@@ -201,39 +198,21 @@ i{
   text-decoration: underline;
 }
 .shadow{
+  margin: 0 auto;
   height: 98px;
   background-image: url("../images/menu-shadow.png");
-  background-position: -16px -55px;
+  background-position: -30px -55px;
   background-repeat: no-repeat;
-}
-.menu__item{
-  float: left;
-  display: inline-block;
 }
 .menu__item p{
   margin: 30px 0 0 40px;
   line-height: 24px;
 }
-.menu__item2,.menu__item3,.menu__item4{
-  margin-left: 60px;
-}
-.menu__item1{
-  width: 220px;
-}
-.menu__item2{
-  width: 340px;
-}
-.menu__item3{
-  width: 200px;
-}
-.menu__item4{
-  width: 160px;
-}
 .menu .menu__item:last-child h4{
   margin-bottom: 50px;
 }
 .menu .icon{
-  padding: 0 10px 0 0;
+  padding: 0 50px 0 0;
 }
 
 /*=================collage==================*/
@@ -242,11 +221,10 @@ i{
   margin-top: 50px;
   position: relative;
 }
+.collage > img{
+  /*width: 100%;*/
+}
 .collage__logo{
-  width: 215px;
-  height: 215px;
-  background: url("../images/logo.png") center no-repeat;
-  position: absolute;
   position: absolute;
   top: -80px;
   left: 500px;
@@ -269,7 +247,6 @@ i{
   height: auto;
 }
 .catalog{
-  margin: 0 auto;
   background: url("../images/catalog-bg.jpg") 0 190px repeat-x;
   z-index: 1;
   overflow: hidden;
@@ -288,19 +265,16 @@ i{
   line-height: 45px;
 }
 .catalog__item{
-  width: 200px;
   text-align: center;
-  float: left;
-  padding: 0px 50px;
+  /*float: left;*/
+  /*padding: 0px 50px;*/
 }
 .catalog__item h4 a,
 .seed__item h4 a{
   text-decoration: none;
 }
 .catalog__item .icon-box{
-  width: 160px;
-  height: 160px;
-  margin: 40px 0 40px 15px;
+  margin: 40px 0;
 }
 .icon-box a:hover{
   text-decoration: none;
@@ -345,18 +319,9 @@ i{
 .field__item{
   padding: 115px 0 90px 0;
   float: left;
-  /*position: relative;*/
-  /*overflow: hidden;*/
-}
-.field .owl-wrapper{
-  /*width: 1200px!important;*/
 }
 .field .owl-item{
   width: 1200px!important;
-}
-.row{
-  float: left;
-  margin-top: 60px;
 }
 .col{
   padding: 10px 7px;
@@ -419,7 +384,8 @@ i{
 }
 .seed .icon-box,
 .gerbicid .icon-box,
-.fertilizers .icon-box{
+.fertilizers .icon-box,
+.image-box .icon-box{
   width: 208px;
   height: 208px;
   border:1px solid #851900;
@@ -828,51 +794,47 @@ footer{
   margin-bottom: 25px;
 }
 .select-wrap{
-  position: relative;
-  display: inline-block;
+  z-index: 3;
 }
-.select-wrap:after {
-  display: block;
-  content: "▾";
-  font-size: 20px;
-  width: 20px;
-  position: absolute;
-  height: 20px;
-  top: 50%;
-  margin-top: -14px;
-  right: 0;
-  color: #fff;
-}
-select{
+.select-wrap .ui-selectmenu-button{
   text-overflow: '...';
   position: relative;
   display: block;
   border:1px solid #851900;
-  width: 225px;
-  height: 37px;
-  padding: 8px 14px;
+  width: 190px;
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
   border-radius: 18px;
   background-color: #f0f0f0;
   outline: none;
 }
-select:focus{
+.select-wrap .ui-selectmenu-button:focus{
   -webkit-box-shadow: 0px 0px 6px 2px rgba(199,195,199,1);
   -moz-box-shadow: 0px 0px 6px 2px rgba(199,195,199,1);
   box-shadow: 0px 0px 6px 2px rgba(199,195,199,1);
-
 }
-select option{
-  background-color: #f0f0f0;
-  padding: 15px 10px;
-  outline: none;
+.select-wrap .ui-selectmenu-text{
+  padding: 0px 5px;
+}
+.select-wrap .ui-selectmenu-menu.ui-front.ui-selectmenu-open{
   width: 100px!important;
 }
-select fieldset{
-  border: 1px solid #851900;
-  width:100px;
+.select-wrap span .ui-menu-item{
+  font-family: "Roboto-Light";
+  font-size: 17px;
+  line-height: 34px;
 }
+.select-wrap .ui-icon-triangle-1-s {
+  background-position: -60px -14px;
+}
+.select-wrap .ui-menu .ui-menu-item {
+  margin: 0;
+  padding: 8px 14px;
+  cursor: pointer;
+  list-style: none;
+}
+
+
 
 /*==================================CONTENT==================================*/
 .content{
@@ -1079,6 +1041,80 @@ select fieldset{
 
 /*===========================CATALOG======================*/
 
+.image-box .goods-box{
+  float: left;
+  margin: 0px 40px;
+}
+.description-box__item{
+  text-align: left;
+  float: left;
+  width: 365px;
+  margin: 0 15px;
+  border:1px solid #851900;
+  padding: 10px 20px 20px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+.description-box__item h4{
+  text-align: left;
+}
+.description-box .row{
+  margin-top:30px;
+}
+
+.instructions h4{
+  color: #000;
+  text-align: left;
+}
+.instructions p{
+  margin-bottom: 40px;
+}
+
+.instructions b{
+  color: #851900;
+}
+.instructions table td,
+.instructions table th {
+  text-align: center;
+  vertical-align: middle;
+  max-width: 190px;
+}
+.instructions tr td,
+.instructions tr th{
+  padding: 20px 20px;
+  width: auto;
+}
+.instructions tr td{
+  border:1px solid #851900;
+  border-top:none;
+}
+.instructions tr th {
+  background-color: #f0f0f0;
+}
+.instructions tr td:first-child,
+.instructions tr td:last-child{
+  background-color: #861c00;
+  color: #fff;
+  border-bottom:1px solid #fff;
+}
+.instructions table tr:last-child td:first-child,
+.instructions table tr:last-child td:last-child{
+  /*border-bottom: 1px solid #861c00;*/
+}
+.instructions table tr:last-child td:first-child{
+  border-bottom-left-radius: 20px;
+  border-left:none;
+}
+.instructions table tr:last-child td:last-child{
+  border-bottom-right-radius: 20px;
+  border-right:none;
+}
+.instructions table{
+  margin-bottom: 40px;
+}
+
+/************************************************/
 
 
 
@@ -1095,10 +1131,3 @@ select fieldset{
 
 
 
-
-
-
-
-
-
-@import url("media.css");

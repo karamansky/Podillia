@@ -48,6 +48,11 @@ $(function(){
 				}
 		);
 
+		//selects - filters
+
+		$("#cultures, #substance, #safe, #manufacturers").selectmenu();
+
+		
 
 
 	});

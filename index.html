@@ -9,7 +9,7 @@
   <!-- Картинка появляющаяся в социальных сетях, при отправке ссылки на сайт в сообщении или на стену -->
   <meta property="og:image" content="img/1.jpg">
   <!-- init viewport -->
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- head stylesheets -->
   <style type="text/css">
@@ -20,76 +20,100 @@
   <!-- stylesheets -->
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-theme.min.css">
 
 
   <title>INDEX - AGRO - HTML</title>
 </head>
 <body>
+
+<!-- header -->
 <div class="wrapper">
-  <div class="wrapper__item">
-    <div class="center">
+  <div class="wrapper__item container">
+    <div class="container">
       <header class="header">
-        <div class="header__head">
-          <h1>Ласкаво просимо</h1>
-          <h4>до нашого агро-порталу</h4>
-        </div>
-        <div class="menu-wrapper">
+        <div class="row">
+          <div class="header__head col-sm-12">
+            <h1>Ласкаво просимо</h1>
+            <h4>до нашого агро-порталу</h4>
+          </div><!-- header__head -->
+        </div><!-- row -->
+        <div class="row">
           <div class="menu">
-            <div class="menu__item menu__item1">
-              <i class="icon icon-company"></i>
-              <h4>Про компанію</h4>
-              <p><a href="about.html">Про нас</a></p>
-              <p><a href="about-us.html">Кар'єра і вакансії</a></p>
-            </div><!-- menu__item -->
-            <div class="menu__item menu__item2">
-              <i class="icon icon-catalog"></i>
-              <h4>Каталог продукції</h4>
-              <p><a href="nasinnya.html">Насіння</a></p>
-              <p><a href="nasinnya.html">Засоби захисту рослин</a></p>
-              <p><a href="nasinnya.html">ПАР, прилипачі, плівкоутворювачі</a></p>
-              <p><a href="nasinnya.html">Позакорневі листкові підживлення</a></p>
-            </div><!-- menu__item -->
-            <div class="menu__item menu__item3">
-              <i class="icon icon-media"></i>
-              <h4>Медіа</h4>
-              <p><a href="news.html">Статті</a></p>
-              <p><a href="news.html">Акції</a></p>
-            </div><!-- menu__item -->
-            <div class="menu__item menu__item4">
-              <i class="icon icon-contacts"></i>
-              <h4>Новини</h4>
-              <i class="icon icon-news"></i>
-              <h4>Контакти</h4>
-            </div><!-- menu__item -->
+            <div class="menu-wrapper col-sm-12">
+              <div class="row">
+                <div class="menu__item col-sm-3">
+                  <i class="icon icon-company"></i>
+                  <h4>Про компанію</h4>
+                  <p><a href="about.html">Про нас</a></p>
+                  <p><a href="about-us.html">Кар'єра і вакансії</a></p>
+                </div><!-- menu__item -->
+                <div class="menu__item col-sm-4">
+                  <i class="icon icon-catalog"></i>
+                  <h4>Каталог продукції</h4>
+                  <p><a href="catalog.html">Насіння</a></p>
+                  <p><a href="catalog-2.html">Засоби захисту рослин</a></p>
+                  <p><a href="catalog.html">ПАР, прилипачі, плівкоутворювачі</a></p>
+                  <p><a href="catalog-2.html">Позакорневі листкові підживлення</a></p>
+                </div><!-- menu__item -->
+                <div class="menu__item col-sm-2">
+                  <i class="icon icon-media"></i>
+                  <h4>Медіа</h4>
+                  <p><a href="news.html">Статті</a></p>
+                  <p><a href="news.html">Акції</a></p>
+                </div><!-- menu__item -->
+                <div class="menu__item col-sm-3">
+                  <i class="icon icon-contacts"></i>
+                  <h4><a href="news.html">Новини</a></h4>
+                  <i class="icon icon-news"></i>
+                  <h4><a href="contacts.html">Контакти</a></h4>
+                </div><!-- menu__item -->
+              </div><!-- row -->
+            </div><!-- menu-wrapper -->
           </div><!-- menu -->
-          <div class="shadow"></div>
-        </div><!-- menu-wrapper -->
+        </div><!-- menu -->
       </header>
     </div><!-- center -->
   </div><!-- wrapper__item -->
 
+  <!-- shadow -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <!--<div class="shadow"></div>-->
+      </div><!-- col-sm-12 -->
+    </div><!-- row -->
+  </div><!-- container-fluid -->
 
-  <div class="wrapper__item">
-    <div class="center">
+
+  <!-- collage -->
+  <div class="wrapper__item container">
+    <div class="center row">
       <div class="collage-wrapper">
-        <div class="collage">
+        <div class="collage col-sm-12">
           <img src="images/collage.png" alt="">
-          <div class="collage__logo"></div>
+          <div class="collage__logo">
+            <img src="images/logo.png" alt="">
+          </div>
           <div class="scroll-mouse"></div>
         </div><!-- collage -->
       </div><!-- collage-wrapper -->
     </div><!-- center -->
   </div><!-- collage-wrapper -->
 
-  <div class="wrapper__item">
+  <!-- catalog -->
+  <div class="wrapper__item container">
     <section class="catalog">
       <div class="calatog-wrapper center">
-        <div class="catalog__head">
-          <h2>Каталог</h2>
-          <a href="#">Дивитись весь</a>
-        </div>
-        <div class="catalog__items">
-          <div class="catalog__item">
+        <div class="row">
+          <div class="catalog__head">
+            <h2>Каталог</h2>
+            <a href="#">Дивитись весь</a>
+          </div><!-- catalog__head -->
+        </div><!-- row -->
+        <div class="catalog__items row">
+          <div class="catalog__item col-md-3">
             <div class="icon-box">
               <a href="#">
                 <img src="images/icon-seeds.png" alt="">
@@ -97,7 +121,7 @@
             </div>
             <h4><a href="#">НАСІННЯ</a></h4>
           </div><!-- catalog-item -->
-          <div class="catalog__item">
+          <div class="catalog__item col-md-3">
             <div class="icon-box">
               <a href="#">
                 <img src="images/icon-pastry-cream.png" alt="">
@@ -105,7 +129,7 @@
             </div>
             <h4><a href="#">Засоби захисту рослин</a></h4>
           </div><!-- catalog-item -->
-          <div class="catalog__item">
+          <div class="catalog__item col-md-3">
             <div class="icon-box">
               <a href="#">
                 <img src="images/icon-watering-can.png" alt="">
@@ -113,7 +137,7 @@
             </div>
             <h4><a href="#">ПАР, прилипачі, плівкоутворювачі</a></h4>
           </div><!-- catalog-item -->
-          <div class="catalog__item">
+          <div class="catalog__item col-md-3">
             <div class="icon-box">
               <a href="#">
                 <img src="images/icon-shield.png" alt="">
@@ -127,7 +151,7 @@
   </div><!-- wrapper__item -->
 
 
-  <div class="wrapper__item">
+  <div class="wrapper__item container">
     <div class="field-wrapper">
       <section class="field center">
         <div class="owl-carousel">
@@ -210,7 +234,7 @@
     </div><!-- field-wrapper -->
   </div><!-- wrapper__item -->
 
-  <div class="wrapper__item">
+  <div class="wrapper__item container">
     <section class="seed-wrapper">
       <div class="seed center">
         <div class="seed__head">
@@ -287,7 +311,7 @@
     </section><!-- seed -->
   </div><!-- wrapper__item -->
 
-  <div class="wrapper__item">
+  <div class="wrapper__item container">
     <section class="gerbicid-wrapper">
       <div class="gerbicid center">
         <div class="gerbicid__head">
@@ -364,7 +388,7 @@
     </section><!-- gerbicid -->
   </div><!-- wrapper__item -->
 
-  <div class="wrapper__item">
+  <div class="wrapper__item container">
     <section class="fertilizers-wrapper">
       <div class="fertilizers center">
         <div class="fertilizers__head">
@@ -441,7 +465,7 @@
     </section><!-- fertilizers -->
   </div><!-- wrapper__item -->
 
-  <div class="wrapper__item">
+  <div class="wrapper__item container">
     <section class="news-wrapper">
       <div class="news center">
         <div class="news__head">
@@ -496,7 +520,7 @@
     </section><!-- news -->
   </div><!-- wrapper__item -->
 
-  <div class="wrapper__item">
+  <div class="wrapper__item container">
     <section class="partners-wrapper">
       <div class="partners">
         <div class="partners__head center">
@@ -542,7 +566,7 @@
     </section><!-- partners -->
   </div><!-- wrapper__item -->
 
-  <div class="wrapper__item">
+  <div class="wrapper__item container">
     <section class="clients-wrapper">
       <div class="clients">
         <div class="clients__head center">
@@ -573,7 +597,7 @@
     </section><!-- clients -->
   </div><!-- wrapper__item -->
 
-  <div class="wrapper__item">
+  <div class="wrapper__item container">
     <section class="contacts-wrapper">
       <div class="contacts">
         <div class="contacts__head center">
@@ -600,7 +624,7 @@
     </section><!-- contacts -->
   </div><!-- wrapper__item -->
 
-  <div class="wrapper__item">
+  <div class="wrapper__item container">
     <footer class="footer-wrapper">
       <div class="footer center">
         <div class="footer__logo">
@@ -671,10 +695,12 @@
 
 <!-- main stylesheet -->
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/media.css">
 
 <!-- scripts -->
 <script src="libs/jquery/jquery.min.js"></script>
 <script src="libs/owl-carousel/owl.carousel.min.js"></script>
+<script src="libs/bootstrap/js/bootstrap.min.js"></script>
 <!--<script src="libs/simplr-smoothscroll-master/smoothscroll.min.js"></script>-->
 <!--<script src="libs/simplr-smoothscroll-master/mousewheel.min.js"></script>-->
 <script src="js/common.js"></script>
