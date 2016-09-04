@@ -1,7 +1,7 @@
 @media (max-width: 1280px){
   .field a.next,
   .field a.prev{
-    display: none;
+    /*display: none;*/
   }
   .partners-logos {
     padding: 40px 0px;
@@ -12,7 +12,9 @@
 }
 
 @media (max-width: 1200px){
-
+  .collage > img{
+    width: 100%;
+  }
 }
 
 @media (max-width: 1024px){
@@ -25,6 +27,9 @@
 }
 
 @media (max-width: 992px){
+  .tablet-hidden{
+    display: none;
+  }
   .menu h4 {
   }
   .menu__item p {
@@ -45,9 +50,21 @@
   .catalog {
     background: #fff;
   }
+  .col {
+    margin: 0px;
+  }
+  .field .owl-controls.clickable {
+    bottom: 0px;
+  }
+  .seed__item, .fertilizers__item, .gerbicid__item {
+     /*padding: 0 0 0 10px;*/
+  }
 }
 
 @media (max-width: 768px){
+  .phone-hidden{
+    display: none;
+  }
   .header__head {
     padding: 30px 0;
   }
@@ -56,6 +73,19 @@
   }
   .shadow {
   display: none;
+  }
+  .field-wrapper {
+    background: #fff;
+  }
+  .field h4, .field a{
+    color: #851900;
+  }
+  .col {
+    margin-left: 5px;
+  }
+  .seed__items .owl-item,
+  .gerbicid__items .owl-item,
+  .fertilizers__items .owl-item  {
   }
 
 }

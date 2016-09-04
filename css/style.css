@@ -126,6 +126,10 @@ b{
 .clear{
   clear: both;
 }
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
 .btn {
   background: #00a84a;
   color: #fff;
@@ -140,7 +144,7 @@ b{
 }
 
 section {
-  padding: 25px 0;
+  margin-top: 55px;
 }
 
 .wrapper__item{
@@ -218,7 +222,7 @@ i{
 /*=================collage==================*/
 .collage-wrapper{
   text-align: center;
-  margin-top: 50px;
+  margin-top: 130px;
   position: relative;
 }
 .collage > img{
@@ -247,7 +251,7 @@ i{
   height: auto;
 }
 .catalog{
-  background: url("../images/catalog-bg.jpg") 0 190px repeat-x;
+  background: url("../images/catalog-bg.jpg") 0 170px repeat-x;
   z-index: 1;
   overflow: hidden;
 }
@@ -293,6 +297,9 @@ i{
   left: 47%;
   bottom: 20px;
 }
+.field .owl-item{
+  text-align: center;
+}
 .field .owl-theme .owl-controls .owl-page span,
 .field .owl-theme .owl-controls .owl-page:hover span{
   display: block;
@@ -317,24 +324,24 @@ i{
   margin-left: 100px;
 }
 .field__item{
-  padding: 115px 0 90px 0;
-  float: left;
+  padding: 50px 0;
+  width: 100%;
 }
+.field .owl-wrapper,
 .field .owl-item{
-  width: 1200px!important;
+  /*width: 100%!important;*/
 }
 .col{
   padding: 10px 7px;
-  margin: 0 49px;
-  width: 285px;
+  margin: 0 0px;
+  margin-bottom: 50px;
   text-align: center;
-  float: left;
 }
 .prev,
 .next {
   display: block;
   position: absolute;
-  top: 400px;
+  top: 42%;
   width: 59px;
   height: 59px;
   cursor: pointer;
@@ -397,7 +404,7 @@ i{
 .seed__item,
 .fertilizers__item,
 .gerbicid__item{
-  width: 200px;
+  /*width: 200px;*/
   text-align: center;
   float: left;
   padding: 0px 50px;
