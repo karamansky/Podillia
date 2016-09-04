@@ -88,7 +88,7 @@ h2 {
   font-family: "Roboto-Bold", Arial, sans-serif;
   text-transform: none;
   float: left;
-  padding: 0 30px;
+  padding: 0 30px 0 0;
   color: #000
 }
 
@@ -231,7 +231,7 @@ i{
 .collage__logo{
   position: absolute;
   top: -80px;
-  left: 500px;
+  left: 490px;
 }
 .scroll-mouse{
   position: absolute;
@@ -418,7 +418,8 @@ i{
 
 .seed .owl-pagination,
 .gerbicid .owl-pagination,
-.fertilizers .owl-pagination{
+.fertilizers .owl-pagination,
+.news .owl-pagination{
   display: none;
 }
 .owl-buttons{
@@ -450,29 +451,19 @@ i{
 }
 
 /*=================News additionally==============*/
+
 .news-wrapper{
   background-color: #f0f0f0;
-}
-.newscontent-wrapper{
-  overflow: hidden;
 }
 .news__head{
   padding-bottom: 20px;
 }
 .news__content{
-  width: 822px;
-  padding: 0 30px 30px 30px;
-  float: left;
+  padding-bottom: 30px;
 }
 .owl-news .item img{
   display: block;
-  width: 100%;
   height: auto;
-}
-.news__rightbar{
-  padding-right: 35px;
-  width: 250px;
-  overflow: hidden;
 }
 span.date{
   font-size: 21px;
@@ -485,10 +476,17 @@ span.date{
   color: #000;
   padding: 15px 0;
 }
+.news__content img{
+  width: 100%;
+}
 .news__content .btn{
   margin-top: 30px;
 }
-
+.news__content .owl-buttons{
+  display: inline-block;
+  float: right;
+  margin: 0;
+}
 .lastnews h4{
   margin: -10px 0 20px 0;
 }
@@ -532,8 +530,8 @@ span.date{
 /*========================partners logo************************/
 .partners h5{
   position: absolute;
-  top: 30px;
-  left: -40px;
+  top: -30px;
+  left: -100px;
   line-height: 18px;
   padding: 0 0 0 40px;
   background: url("../images/icon-arrow-left.png") 0 0 no-repeat;
@@ -566,7 +564,7 @@ span.date{
   transform: rotate(-90deg);
 }
 .partners-logos img {
-  padding: 10px 30px 0 30px;
+  padding: 10px;
 }
 
 /**====================clients======================*/
@@ -575,10 +573,13 @@ span.date{
   padding: 50px 0 50px 0;
 }
 .clients__map{
-  height: 780px;
-  background: url("../images/ukraine-map.jpg") center no-repeat;
-  overflow: hidden;
+  /*height: 780px;*/
+  /*background: url("../images/ukraine-map.jpg") center no-repeat;*/
+  /*overflow: hidden;*/
   position: relative;
+}
+.clients__map img{
+  width: 100%;
 }
 .region{
   position: absolute;
@@ -591,27 +592,27 @@ span.date{
   background: url("../images/icon-select-region.png") center no-repeat;
 }
 .region-1{
-  left: 300px;
+  left: 260px;
   top: 150px;
 }
 .region-2{
-  left: 480px;
+  left: 440px;
   top: 190px;
 }
 .region-3{
-  left: 630px;
+  left: 590px;
   top: 210px;
 }
 .region-4{
-  left: 340px;
+  left: 300px;
   top: 280px;
 }
 .region-5{
-  left: 550px;
+  left: 510px;
   top: 350px;
 }
 .region-6{
-  left: 520px;
+  left: 480px;
   top: 450px;
 }
 
@@ -629,13 +630,12 @@ span.date{
 }
 .contacts__map{
   height: 470px;
-  background: url("../images/contacts-map.jpg");
+  background: url("../images/contacts-map.jpg") center no-repeat;
 }
 .contacts .pp{
   position: absolute;
   left: 550px;
   top: -100px;
-  display: inline-block;
   background-color: #dddddd;
   padding: 65px 50px;
   -webkit-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.41);
@@ -660,7 +660,7 @@ span.date{
 .contacts .address{
   position: absolute;
   right: 30px;
-  bottom: -32px;
+  top: 340px;
   display: inline-block;
   background-color: #00a84a;
   padding: 15px 30px;
@@ -701,7 +701,8 @@ footer{
 }
 .footer__menu li{
   list-style: disc;
-  list-style-position: inside;
+  list-style-position: outside;
+  margin-left: 20px;
 }
 .footer__menu .menu__item{
   float: left;
@@ -709,24 +710,6 @@ footer{
 }
 .footer__menu .menu__item p{
   margin-top: 30px;
-}
-.footer__menu .menu__item2,.footer__menu .menu__item3,.footer__menu .menu__item4{
-  margin-left: 60px;
-}
-.footer__menu .menu__item1{
-  width: 230px;
-}
-.footer__menu .menu__item2{
-  width: 320px;
-}
-.footer__menu .menu__item3{
-  width: 110px;
-}
-.footer__menu .menu__item4{
-  width: 170px;
-}
-.footer__menu .menu .menu__item:last-child h4{
-  margin-bottom: 50px;
 }
 .footer__contacts{
   padding: 40px 30px;

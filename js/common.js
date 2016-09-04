@@ -11,9 +11,9 @@ $(function(){
 			nav								: true
 		});
 		$(".seed-carousel").owlCarousel({
-			itemsDesktop 			: [1920,4], //4 items between 1000px and 901px
-			itemsDesktopSmall	: [1199,3], //4 items between 1000px and 901px
-			itemsTablet				: [789,2], //2 items between 600 and 0
+			itemsDesktop 			: [1920,4],
+			itemsDesktopSmall	: [1199,3],
+			itemsTablet				: [789,2],
 			itemsMobile 			: false,
 			itemClass					: ".seed__item",
 			responsive				: true,
@@ -31,16 +31,11 @@ $(function(){
 		$(".owl-news").owlCarousel({
 			items 					: 1,
 			itemClass				: ".item-img",
-			responsive			: true,
+			responsive			: false,
 			navigation 			: true,
 			navigationText	: ["",""]
 		});
 
-
-		//bx-slider
-		// $('.bx-slider').bxSlider({
-		//
-		// });
 
 		//interactive hover block
 		$(".interactive__item").hover(
@@ -55,7 +50,6 @@ $(function(){
 		);
 
 		//selects - filters
-
 		$("#cultures, #substance, #safe, #manufacturers").selectmenu();
 
 		
