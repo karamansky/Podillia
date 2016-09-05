@@ -39,6 +39,14 @@
     left: 380px;
     top: 370px;
   }
+  .shadow{
+    background-position: -120px -55px;
+  }
+  .instructions tr td,
+  .instructions tr th {
+    padding: 8px;
+  }
+
 }
 
 @media (max-width: 1024px){
@@ -119,6 +127,12 @@
     top: 320px;
     position: relative;
   }
+  .row .target-interactive__item{
+    display: none;
+  }
+  .interactive__item img{
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px){
@@ -146,6 +160,9 @@
   .seed__items .owl-item,
   .gerbicid__items .owl-item,
   .fertilizers__items .owl-item  {
+  }
+  .content-main-head{
+    margin-top: 30px;
   }
 
 }

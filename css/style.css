@@ -127,8 +127,8 @@ b{
   clear: both;
 }
 .container-fluid{
-  padding-left: 0;
-  padding-right: 0;
+  /*padding-left: 0;*/
+  /*padding-right: 0;*/
 }
 .btn {
   background: #00a84a;
@@ -222,7 +222,7 @@ i{
 /*=================collage==================*/
 .collage-wrapper{
   text-align: center;
-  margin-top: 130px;
+  margin-top: 50px;
   position: relative;
 }
 .collage > img{
@@ -393,6 +393,7 @@ i{
 .gerbicid .icon-box,
 .fertilizers .icon-box,
 .image-box .icon-box{
+  margin: 0 auto;
   width: 208px;
   height: 208px;
   border:1px solid #851900;
@@ -754,11 +755,9 @@ footer{
 /*==================================SIDEBAR=============================*/
 
 .sidebar{
-  width: 255px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 40px 0;
-  float: left;
 }
 .sidebar__menu{
   margin-bottom:  35px  ;
@@ -791,12 +790,24 @@ footer{
   position: relative;
   display: block;
   border:1px solid #851900;
-  width: 190px;
+  width: 100%!important;
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
   border-radius: 18px;
   background-color: #f0f0f0;
   outline: none;
+}
+.ui-widget.ui-widget-content {
+  display: block!important;
+  margin-top: -38px!important;
+  border: 1px solid #851900!important;
+  -webkit-border-radius: 18px!important;
+  -moz-border-radius: 18px!important;
+  border-radius: 18px!important;
+  background-color: #f0f0f0!important;
+  -webkit-box-shadow: 0px 0px 6px 2px rgba(199,195,199,1)!important;
+  -moz-box-shadow: 0px 0px 6px 2px rgba(199,195,199,1)!important;
+  box-shadow: 0px 0px 6px 2px rgba(199,195,199,1)!important;
 }
 .select-wrap .ui-selectmenu-button:focus{
   -webkit-box-shadow: 0px 0px 6px 2px rgba(199,195,199,1);
@@ -831,12 +842,7 @@ footer{
   overflow: hidden;
 }
 .content-text{
-  padding: 40px 15px 50px 15px;
-  width: 885px;
-  float: right;
-}
-.content-main-head{
-  margin: 0 auto;
+  padding: 0px 15px 50px 15px;
 }
 .content-main-head h2{
   text-align: center;
@@ -886,19 +892,14 @@ footer{
 .blog-image img{
   height: 100%;
 }
+.media img{
+  margin-bottom: 15px;
+}
 .media p{
   margin-bottom: 30px;
 }
 .media .date{
   margin-bottom: 0;
-}
-.media .blog-image{
-  width: 160px;
-  float: left;
-}
-.media .blog-post{
-  width: 695px;
-  float: right;
 }
 .media .icon-box{
   width: 160px;
@@ -940,36 +941,30 @@ footer{
   position: relative;
 }
 .interactive__item{
-  float: left;
-  width: 35%;
-  padding: 50px 30px;
-  margin-left: 130px;
-}
-.interactive .interactive__item:nth-child(2n-1){
-  margin-left:0px;
+  padding: 50px 15px;
 }
 .interactive__item:hover{
+  z-index: 1;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(214,201,214,1);
   -moz-box-shadow: 0px 0px 5px 0px rgba(214,201,214,1);
   box-shadow: 0px 0px 5px 0px rgba(214,201,214,1);
 }
-.target-interactive__item{
-  position: absolute;
+.row .target-interactive__item{
   width: 54px;
   height: 54px;
-  left: 46%;
-  top: 43%;
   border: 2px solid #851900;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   overflow: hidden;
+  margin:20px auto;
 }
 .target-interactive__item div{
   border: 1px solid #b2b2b2;
   width: 25px;
   height: 25px;
   float: left;
+  z-index: 5;
 }
 
 
@@ -978,24 +973,22 @@ footer{
   border-bottom: 1px solid #a9a9a9;
   margin-bottom: 35px;
   padding-bottom: 10px;
-  overflow: hidden;
 }
 .clients-list__sidebar{
-  width: 255px;
   padding-left: 15px;
   padding-right: 15px;
-  float: left;
   text-align: center;
 }
 .clients-list__content{
-  width: 885px;
   padding-left: 15px;
   padding-right: 15px;
-  float: right;
 }
 .clients-list__region{
   font-family: "Roboto-Regular";
   color: #851900;
+}
+.clients-list .clients-list__item:last-child{
+  border-bottom: none;
 }
 
 /*===========================CONTACTS=====================*/
@@ -1030,16 +1023,7 @@ footer{
 
 
 /*===========================CATALOG======================*/
-
-.image-box .goods-box{
-  float: left;
-  margin: 0px 40px;
-}
 .description-box__item{
-  text-align: left;
-  float: left;
-  width: 365px;
-  margin: 0 15px;
   border:1px solid #851900;
   padding: 10px 20px 20px 20px;
   border-radius: 10px;
@@ -1064,6 +1048,9 @@ footer{
 .instructions b{
   color: #851900;
 }
+table{
+  width: 100%;
+}
 .instructions table td,
 .instructions table th {
   text-align: center;
@@ -1072,7 +1059,7 @@ footer{
 }
 .instructions tr td,
 .instructions tr th{
-  padding: 20px 20px;
+  padding: 20px;
   width: auto;
 }
 .instructions tr td{
@@ -1087,10 +1074,6 @@ footer{
   background-color: #861c00;
   color: #fff;
   border-bottom:1px solid #fff;
-}
-.instructions table tr:last-child td:first-child,
-.instructions table tr:last-child td:last-child{
-  /*border-bottom: 1px solid #861c00;*/
 }
 .instructions table tr:last-child td:first-child{
   border-bottom-left-radius: 20px;

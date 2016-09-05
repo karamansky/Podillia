@@ -9,7 +9,7 @@
   <!-- Картинка появляющаяся в социальных сетях, при отправке ссылки на сайт в сообщении или на стену -->
   <meta property="og:image" content="img/1.jpg">
   <!-- init viewport -->
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- head stylesheets -->
   <style type="text/css">
@@ -20,127 +20,148 @@
   <!-- stylesheets -->
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-theme.min.css">
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/jquery.jscrollpane.css">
 
 
   <title>NEWS - AGRO - HTML</title>
 </head>
 <body>
+
+<!-- header -->
 <div class="wrapper">
   <div class="wrapper__item">
-    <div class="center">
+    <div class="container">
       <header class="header">
-        <div class="header__logo">
-          <img src="images/logo.png" alt="">
-        </div><!-- header-logo -->
-        <div class="menu-wrapper">
+        <div class="row">
+          <div class="header__logo">
+            <img src="images/logo.png" alt="">
+          </div><!-- header-logo -->
+        </div><!-- row -->
+        <div class="row">
           <div class="menu">
-            <div class="menu__item menu__item1">
-              <i class="icon icon-company"></i>
-              <h4>Про компанію</h4>
-              <p><a href="about.html">Про нас</a></p>
-              <p><a href="about-us.html">Кар'єра і вакансії</a></p>
-            </div><!-- menu__item -->
-            <div class="menu__item menu__item2">
-              <i class="icon icon-catalog"></i>
-              <h4>Каталог продукції</h4>
-              <p><a href="nasinnya.html">Насіння</a></p>
-              <p><a href="nasinnya.html">Засоби захисту рослин</a></p>
-              <p><a href="nasinnya.html">ПАР, прилипачі, плівкоутворювачі</a></p>
-              <p><a href="nasinnya.html">Позакорневі листкові підживлення</a></p>
-            </div><!-- menu__item -->
-            <div class="menu__item menu__item3">
-              <i class="icon icon-media"></i>
-              <h4>Медіа</h4>
-              <p><a href="news.html">Статті</a></p>
-              <p><a href="news.html">Акції</a></p>
-            </div><!-- menu__item -->
-            <div class="menu__item menu__item4">
-              <i class="icon icon-contacts"></i>
-              <h4>Новини</h4>
-              <i class="icon icon-news"></i>
-              <h4>Контакти</h4>
-            </div><!-- menu__item -->
+            <div class="menu-wrapper col-sm-12">
+              <div class="row">
+                <div class="menu__item col-sm-3">
+                  <i class="icon icon-company"></i>
+                  <h4>Про компанію</h4>
+                  <p><a href="about.html">Про нас</a></p>
+                  <p><a href="about-us.html">Кар'єра і вакансії</a></p>
+                </div><!-- menu__item -->
+                <div class="menu__item col-sm-4">
+                  <i class="icon icon-catalog"></i>
+                  <h4>Каталог продукції</h4>
+                  <p><a href="catalog.html">Насіння</a></p>
+                  <p><a href="catalog-2.html">Засоби захисту рослин</a></p>
+                  <p><a href="catalog.html">ПАР, прилипачі, плівкоутворювачі</a></p>
+                  <p><a href="catalog-2.html">Позакорневі листкові підживлення</a></p>
+                </div><!-- menu__item -->
+                <div class="menu__item col-sm-2">
+                  <i class="icon icon-media"></i>
+                  <h4>Медіа</h4>
+                  <p><a href="news.html">Статті</a></p>
+                  <p><a href="news.html">Акції</a></p>
+                </div><!-- menu__item -->
+                <div class="menu__item col-sm-3">
+                  <i class="icon icon-contacts"></i>
+                  <h4><a href="single-news.html">Новини</a></h4>
+                  <i class="icon icon-news"></i>
+                  <h4><a href="contacts.html">Контакти</a></h4>
+                </div><!-- menu__item -->
+              </div><!-- row -->
+            </div><!-- menu-wrapper -->
           </div><!-- menu -->
           <div class="shadow"></div>
-        </div><!-- menu-wrapper -->
+        </div><!-- row -->
       </header>
     </div><!-- center -->
   </div><!-- wrapper__item -->
 
   <div class="wrapper__item">
     <div class="center">
-      <div class="content">
-        <div class="content-main-head">
-          <h2><img src="images/media.png">Медіа</h2>
-        </div>
-        <aside class="sidebar">
-          <div class="sidebar__menu">
-            <ul>
-              <li><a href="#">Акції</a></li>
-              <li class="active"><a href="#">Статті</a></li>
-            </ul>
+      <div class="content container">
+        <div class="row">
+          <div class="content-main-head">
+            <h2><img src="images/media.png">Медіа</h2>
           </div>
-        </aside><!-- sidebar -->
-        <section class="content-text">
-          <div class="media">
-            <div class="blog-image">
-              <div class="icon-box"><a href="#">
-                <img src="images/corn.png" alt="">
-              </a></div>
+        </div><!-- row -->
+        <div class="row">
+          <aside class="sidebar col-md-3">
+            <div class="sidebar__menu">
+              <ul>
+                <li><a href="#">Акції</a></li>
+                <li class="active"><a href="#">Статті</a></li>
+              </ul>
             </div>
-            <div class="blog-post">
-              <span class="date">27 травня 2015</span>
-              <h4>ПОЛЕ В 2015 ПОБЛИЗУ КИєва</h4>
-              <p>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не тільки успішно пережила п'ять століть, але й.</p>
-            </div>
-            <div class="clear"></div>
-          </div><!-- media -->
-          <div class="media">
-            <div class="blog-image">
-              <div class="icon-box"><a href="#">
-                <img src="images/news-img-slide.jpg" alt="">
-              </a></div>
-            </div>
-            <div class="blog-post">
-              <span class="date">27 травня 2015</span>
-              <h4>ПОЛЕ В 2015 ПОБЛИЗУ КИєва</h4>
-              <p>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не тільки успішно пережила п'ять століть, але й.</p>
-            </div>
-            <div class="clear"></div>
-          </div><!-- media -->
-          <div class="media">
-            <div class="blog-image">
-              <div class="icon-box"><a href="#">
-                <img src="images/corn.png" alt="">
-              </a></div>
-            </div>
-            <div class="blog-post">
-              <span class="date">27 травня 2015</span>
-              <h4>ПОЛЕ В 2015 ПОБЛИЗУ КИєва</h4>
-              <p>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не тільки успішно пережила п'ять століть, але й.</p>
-            </div>
-            <div class="clear"></div>
-          </div><!-- media -->
-          <div class="media">
-            <div class="blog-image">
-              <div class="icon-box"><a href="#">
-                <img src="images/news-img-slide.jpg" alt="">
-              </a></div>
-            </div>
-            <div class="blog-post">
-              <span class="date">27 травня 2015</span>
-              <h4>ПОЛЕ В 2015 ПОБЛИЗУ КИєва</h4>
-              <p>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не тільки успішно пережила п'ять століть, але й.</p>
-            </div>
-            <div class="clear"></div>
-          </div><!-- media -->
-        </section><!-- content-text -->
+          </aside><!-- sidebar -->
+          <section class="content-text col-md-9">
+            <div class="row">
+              <div class="media col-md-12">
+                <div class="blog-image col-sm-3">
+                  <div class="icon-box"><a href="#">
+                    <img src="images/corn.png" alt="">
+                  </a></div>
+                </div>
+                <div class="blog-post col-sm-9">
+                  <span class="date">27 травня 2015</span>
+                  <h4>ПОЛЕ В 2015 ПОБЛИЗУ КИєва</h4>
+                  <p>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не тільки успішно пережила п'ять століть, але й.</p>
+                </div>
+              </div><!-- media -->
+            </div><!-- row -->
+            <div class="row">
+              <div class="media col-md-12">
+                <div class="blog-image col-sm-3">
+                  <div class="icon-box"><a href="#">
+                    <img src="images/news-img-slide.jpg" alt="">
+                  </a></div>
+                </div>
+                <div class="blog-post col-sm-9">
+                  <span class="date">27 травня 2015</span>
+                  <h4>ПОЛЕ В 2015 ПОБЛИЗУ КИєва</h4>
+                  <p>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не тільки успішно пережила п'ять століть, але й.</p>
+                </div>
+              </div><!-- media -->
+            </div><!-- row -->
+            <div class="row">
+              <div class="media col-md-12">
+                <div class="blog-image col-sm-3">
+                  <div class="icon-box"><a href="#">
+                    <img src="images/corn.png" alt="">
+                  </a></div>
+                </div>
+                <div class="blog-post col-sm-9">
+                  <span class="date">27 травня 2015</span>
+                  <h4>ПОЛЕ В 2015 ПОБЛИЗУ КИєва</h4>
+                  <p>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не тільки успішно пережила п'ять століть, але й.</p>
+                </div>
+              </div><!-- media -->
+            </div><!-- row -->
+            <div class="row">
+              <div class="media col-md-12">
+                <div class="blog-image col-sm-3">
+                  <div class="icon-box"><a href="#">
+                    <img src="images/news-img-slide.jpg" alt="">
+                  </a></div>
+                </div>
+                <div class="blog-post col-sm-9">
+                  <span class="date">27 травня 2015</span>
+                  <h4>ПОЛЕ В 2015 ПОБЛИЗУ КИєва</h4>
+                  <p>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не тільки успішно пережила п'ять століть, але й.</p>
+                </div>
+              </div><!-- media -->
+            </div><!-- row -->
+          </section><!-- content-text -->
+        </div><!-- row -->
       </div><!-- content -->
     </div><!-- center -->
   </div><!-- wrapper__item -->
 
-  <div class="wrapper__item">
-    <div class="center">
+  <div class="wrapper__item container">
+    <div class="center row">
       <div class="pagination">
         <ul>
           <li class="pagination--active"><a href="#">1</a></li>
@@ -152,91 +173,101 @@
           <li><a href="#">30</a></li>
         </ul>
       </div><!-- pagination -->
-      <div class="clear"></div>
     </div><!-- center -->
   </div><!-- wrapper__item -->
 
-
-
-
-  <div class="wrapper__item">
+  <!-- FOOTER -->
+  <div class="wrapper__item container-fluid">
     <footer class="footer-wrapper">
       <div class="footer center">
-        <div class="footer__logo">
-          <img src="images/logo.png" alt="">
-          <div class="footer__social">
-            <ul>
-              <li><a href="#"><img src="images/gplus.png" alt=""></a></li>
-              <li><a href="#"><img src="images/vk.png" alt=""></a></li>
-              <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
-              <li><a href="#"><img src="images/instagram.png" alt=""></a></li>
-            </ul>
-          </div><!-- footer__social -->
-        </div><!-- footer__logo -->
-        <div class="footer__menu menu">
-          <div class="menu__item menu__item1">
-            <h4>Про компанію</h4>
-            <ul>
-              <li><a href="about.html">Акції</a></li>
-              <li><a href="single-news.html">Статті</a></li>
-            </ul>
-          </div><!-- menu__item -->
-          <div class="menu__item menu__item2">
-            <h4>Каталог продукції</h4>
-            <ul>
-              <li><a href="#">Насіння</a></li>
-              <li><a href="#">Засоби захисту рослин</a></li>
-              <li><a href="#">ПАР, прилипачі, плівкоутворювачі</a></li>
-              <li><a href="#">Позакорневі листкові підживлення</a></li>
-            </ul>
-          </div><!-- menu__item -->
-          <div class="menu__item menu__item3">
-            <h4>Медіа</h4>
-            <ul>
-              <li><a href="news.html">Статті</a></li>
-              <li><a href="news.html">Акції</a></li>
-            </ul>
-          </div><!-- menu__item -->
-          <div class="menu__item menu__item4">
-            <h4>Новини</h4>
-          </div><!-- menu__item -->
-          <div class="menu__item menu__item5">
-            <h4>Контакти</h4>
-          </div><!-- menu__item -->
-        </div><!-- menu -->
-        <div class="footer__contacts">
-          <p><b>тел./факс:</b> 04350-3-16-25</p>
-          <p><b>моб.:</b> 099-553-91-54, 097-394-15-04</p>
-          <p><b>e-mail:</b> podil-agrohimservise@ukr.net</p>
-          <p><b>Адреса:</b> вул. Леніна,233, смт. Вапнярка, Томашпільський р-н, Вінницька обл., 24240</p>
-        </div><!-- footer__contacts -->
-        <div class="footer__copy">
-          <p><b>Поділля-Агрохімсервіс © 2016.</b> Всі права захищені</p>
-          <div class="abdesign">
-            <p>Сайт розроблено компанією</p>
-            <a href="http://www.abdesign.kiev.ua" target="_blank"><img src="images/abdesign.png" alt=""></a>
-          </div>
-        </div><!-- footer__copy -->
-      </div><!-- footer-wrapper -->
-    </footer><!-- footer -->
+        <div class="container">
+          <div class="row">
+            <div class="footer__logo">
+              <img src="images/logo.png" alt="alt-text"/>
+              <div class="footer__social">
+                <ul>
+                  <li><a href="#"><img src="images/gplus.png" alt="alt-text"/></a></li>
+                  <li><a href="#"><img src="images/vk.png" alt="alt-text"/></a></li>
+                  <li><a href="#"><img src="images/facebook.png" alt="alt-text"/></a></li>
+                  <li><a href="#"><img src="images/instagram.png" alt="alt-text"/></a></li>
+                </ul>
+              </div><!-- footer__social -->
+            </div><!-- footer__logo -->
+          </div><!-- row -->
+          <div class="row">
+            <div class="footer__menu menu">
+              <div class="menu__item col-sm-3">
+                <h4>Про компанію</h4>
+                <ul>
+                  <li><a href="about.html">Про нас</a></li>
+                  <li><a href="vacation.html">Кар'єра і вакансії</a></li>
+                </ul>
+              </div><!-- menu__item -->
+              <div class="menu__item col-sm-3">
+                <h4>Каталог продукції</h4>
+                <ul>
+                  <li><a href="#">Насіння</a></li>
+                  <li><a href="#">Засоби захисту рослин</a></li>
+                  <li><a href="#">ПАР, прилипачі, плівкоутворювачі</a></li>
+                  <li><a href="#">Позакорневі листкові підживлення</a></li>
+                </ul>
+              </div><!-- menu__item -->
+              <div class="menu__item col-sm-2">
+                <h4>Медіа</h4>
+                <ul>
+                  <li><a href="news.html">Статті</a></li>
+                  <li><a href="news.html">Акції</a></li>
+                </ul>
+              </div><!-- menu__item -->
+              <div class="menu__item col-sm-2">
+                <h4>Новини</h4>
+              </div><!-- menu__item -->
+              <div class="menu__item col-sm-1">
+                <h4>Контакти</h4>
+              </div><!-- menu__item -->
+            </div><!-- menu -->
+          </div><!-- row -->
+          <div class="row">
+            <div class="footer__contacts">
+              <p><b>тел./факс:</b> 04350-3-16-25</p>
+              <p><b>моб.:</b> 099-553-91-54, 097-394-15-04</p>
+              <p><b>e-mail:</b> podil-agrohimservise@ukr.net</p>
+              <p><b>Адреса:</b> вул. Леніна,233, смт. Вапнярка, Томашпільський р-н, Вінницька обл., 24240</p>
+            </div><!-- footer__contacts -->
+          </div><!-- row -->
+          <div class="row">
+            <div class="footer__copy">
+              <p><b>Поділля-Агрохімсервіс © 2016.</b> Всі права захищені</p>
+              <div class="abdesign col-sm-4">
+                <p>Сайт розроблено компанією</p>
+                <a href="http://www.abdesign.kiev.ua" target="_blank"><img src="images/abdesign.png" alt="alt-text"/></a>
+              </div><!-- abdesign -->
+            </div><!-- footer__copy -->
+          </div><!-- row -->
+        </div><!-- container -->
+      </div><!-- footer -->
+    </footer><!-- footer-wrapper -->
   </div><!-- wrapper__item -->
 </div><!-- wrapper -->
 
 <!-- Important Owl stylesheet -->
 <link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css">
-
-<!-- Default Theme -->
 <link rel="stylesheet" href="libs/owl-carousel/owl.theme.css">
+
+<!--<link rel="stylesheet" href="libs/bxslider/jquery.bxslider.css">-->
 
 <!-- main stylesheet -->
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/media.css">
 
 <!-- scripts -->
 <script src="libs/jquery/jquery.min.js"></script>
+<script src="libs/jquery/jquery-ui.min.js"></script>
+<script src="libs/jquery/jquery.jscrollpane.min.js"></script>
+<script src="libs/jquery/jquery.mousewheel.js"></script>
 <script src="libs/owl-carousel/owl.carousel.min.js"></script>
 <!--<script src="libs/simplr-smoothscroll-master/smoothscroll.min.js"></script>-->
 <!--<script src="libs/simplr-smoothscroll-master/mousewheel.min.js"></script>-->
 <script src="js/common.js"></script>
-
 </body>
 </html>

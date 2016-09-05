@@ -9,7 +9,7 @@
   <!-- Картинка появляющаяся в социальных сетях, при отправке ссылки на сайт в сообщении или на стену -->
   <meta property="og:image" content="img/1.jpg">
   <!-- init viewport -->
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- head stylesheets -->
   <style type="text/css">
@@ -20,195 +20,208 @@
   <!-- stylesheets -->
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-theme.min.css">
+  <!-- stylesheets -->
   <link rel="stylesheet" href="css/jquery-ui.css">
   <link rel="stylesheet" href="css/jquery.jscrollpane.css">
 
 
-  <title>CATALOG 2 - AGRO - HTML</title>
+  <title>CATALOG - AGRO - HTML</title>
 </head>
 <body>
+
+<!-- header -->
 <div class="wrapper">
   <div class="wrapper__item">
-    <div class="center">
+    <div class="container">
       <header class="header">
-        <div class="header__logo">
-          <img src="images/logo.png" alt="">
-        </div><!-- header-logo -->
-        <div class="menu-wrapper">
+        <div class="row">
+          <div class="header__logo">
+            <img src="images/logo.png" alt="">
+          </div><!-- header-logo -->
+        </div><!-- row -->
+        <div class="row">
           <div class="menu">
-            <div class="menu__item menu__item1">
-              <i class="icon icon-company"></i>
-              <h4>Про компанію</h4>
-              <p><a href="about.html">Про нас</a></p>
-              <p><a href="about-us.html">Кар'єра і вакансії</a></p>
-            </div><!-- menu__item -->
-            <div class="menu__item menu__item2">
-              <i class="icon icon-catalog"></i>
-              <h4>Каталог продукції</h4>
-              <p><a href="nasinnya.html">Насіння</a></p>
-              <p><a href="nasinnya.html">Засоби захисту рослин</a></p>
-              <p><a href="nasinnya.html">ПАР, прилипачі, плівкоутворювачі</a></p>
-              <p><a href="nasinnya.html">Позакорневі листкові підживлення</a></p>
-            </div><!-- menu__item -->
-            <div class="menu__item menu__item3">
-              <i class="icon icon-media"></i>
-              <h4>Медіа</h4>
-              <p><a href="news.html">Статті</a></p>
-              <p><a href="news.html">Акції</a></p>
-            </div><!-- menu__item -->
-            <div class="menu__item menu__item4">
-              <i class="icon icon-contacts"></i>
-              <h4>Новини</h4>
-              <i class="icon icon-news"></i>
-              <h4>Контакти</h4>
-            </div><!-- menu__item -->
+            <div class="menu-wrapper col-sm-12">
+              <div class="row">
+                <div class="menu__item col-sm-3">
+                  <i class="icon icon-company"></i>
+                  <h4>Про компанію</h4>
+                  <p><a href="about.html">Про нас</a></p>
+                  <p><a href="about-us.html">Кар'єра і вакансії</a></p>
+                </div><!-- menu__item -->
+                <div class="menu__item col-sm-4">
+                  <i class="icon icon-catalog"></i>
+                  <h4>Каталог продукції</h4>
+                  <p><a href="catalog.html">Насіння</a></p>
+                  <p><a href="catalog-2.html">Засоби захисту рослин</a></p>
+                  <p><a href="catalog.html">ПАР, прилипачі, плівкоутворювачі</a></p>
+                  <p><a href="catalog-2.html">Позакорневі листкові підживлення</a></p>
+                </div><!-- menu__item -->
+                <div class="menu__item col-sm-2">
+                  <i class="icon icon-media"></i>
+                  <h4>Медіа</h4>
+                  <p><a href="news.html">Статті</a></p>
+                  <p><a href="news.html">Акції</a></p>
+                </div><!-- menu__item -->
+                <div class="menu__item col-sm-3">
+                  <i class="icon icon-contacts"></i>
+                  <h4><a href="single-news.html">Новини</a></h4>
+                  <i class="icon icon-news"></i>
+                  <h4><a href="contacts.html">Контакти</a></h4>
+                </div><!-- menu__item -->
+              </div><!-- row -->
+            </div><!-- menu-wrapper -->
           </div><!-- menu -->
           <div class="shadow"></div>
-        </div><!-- menu-wrapper -->
+        </div><!-- row -->
       </header>
     </div><!-- center -->
   </div><!-- wrapper__item -->
 
   <div class="wrapper__item">
     <div class="center">
-      <div class="content">
-        <div class="content-main-head">
-          <h2><img src="images/catalog.png">Каталог продукції</h2>
-        </div>
-        <aside class="sidebar">
-          <div class="sidebar__menu">
-            <ul>
-              <li><a href="#">Насіння</a></li>
-              <li class="active"><a href="#">Засоби захисту рослин</a></li>
-              <li><a href="#">ПАР, прилипачі, плівкоутворювачі</a></li>
-              <li><a href="#">Позакореневі листкові підживлення</a></li>
-            </ul>
-          </div><!-- sidebar__menu -->
-          <div class="sidebar__filters">
-            <form action="" method="get">
-              <ul>
-                <li>
-                  <div class="select-wrap">
-                    <select name="" id="cultures">
-                      <option value="0">Культури</option>
-                      <option value="1">Культури</option>
-                      <option value="2">Культури</option>
-                      <option value="3">Культури</option>
-                      <option value="4">Культури</option>
-                      <option value="5">Культури</option>
-                    </select>
-                  </div><!-- select-wrap -->
-                </li>
-                <li>
-                  <div class="select-wrap">
-                    <select name="" id="substance">
-                      <option value="0">Діюча речовина</option>
-                      <option value="1">Діюча речовина</option>
-                      <option value="2">Діюча речовина</option>
-                      <option value="3">Діюча речовина</option>
-                      <option value="4">Діюча речовина</option>
-                      <option value="5">Діюча речовина</option>
-                    </select>
-                  </div>
-                </li>
-                <li>
-                  <div class="select-wrap">
-                    <select name="" id="safe">
-                      <option value="0">Засоби захисту рослин lorem dolor</option>
-                      <option value="1">Засоби захисту</option>
-                      <option value="2">Засоби захисту</option>
-                      <option value="3">Засоби захисту</option>
-                      <option value="4">Засоби захисту</option>
-                      <option value="5">Засоби захисту</option>
-                    </select>
-                  </div><!-- select-wrap -->
-                </li>
-                <li>
-                  <div class="select-wrap">
-                    <select name="" id="manufacturers">
-                      <option value="0">Виробники</option>
-                      <option value="1">Miller Chemical & Fertilizer Corp (USA)</option>
-                      <option value="2">Valagro</option>
-                      <option value="3">Адама</option>
-                      <option value="4">Аріста</option>
-                      <option value="5">Байєр</option>
-                      <option value="6">Байєр</option>
-                      <option value="7">Байєр</option>
-                    </select>
-                  </div>
-                </li>
-              </ul>
-            </form>
+      <div class="content container">
+        <div class="row">
+          <div class="content-main-head">
+            <h2><img src="images/catalog.png">Каталог продукції</h2>
           </div>
-        </aside><!-- sidebar -->
-        <section class="content-text">
-          <h4>Засоби захисту рослин</h4>
-          <div class="instructions">
-            <h4>Імпера Голд® КЕ</h4>
-            <p><b>Діюча речовина:</b> пропіконазол, 90 г/л + прохлораз, 400 г/л</p>
-            <p><b>Призначення препарату:</b><br> Імпера Голд® - комбінований контактно-системний фунгіцид профілактичної та лікувальної дії для захисту зернових культур, соняшнику та сої від широкого спектру хвороб. пропіконазол, 90 г/л + прохлораз, 400 г/л</p>
-            <p><b>Класифікація ВООЗ, токсичність:</b><br> Клас небезпечності – 3 Посвідчення про державну реєстрацію: серія А № 04347</p>
-            <p><b>Пакування: </b>5 л</p>
-            <p><b>Гарантійний термін зберігання: </b><br>2 роки у невідкритій та неушкодженій заводській упаковці за відповідних умов зберігання при температурі від +5˚С до +30 ˚С.</p>
-            <p><b>Механізм дії препарту: </b><br>До складу препарату входять дві діючі речовини, які належать до класу триазольних та імідазольних сполук. Препарату властива профілактична та лікувальна дія.  У тканинах рослин Імпера Голд® має локально-системну і трансламінарну дію. Фунгіцидна активність проявляється за рахунок пригнічення біосинтезу ергостиролу в патогенів.</p>
-            <p><b>Сумісність з іншими препаратами: </b><br>Імпера Голд®  може використовуватися в суміші з іншими фунгіцидами, інсектицидами та гербіцидами, за виключенням високолужних сполук. Проте, його сумісність залежить від формуляції інших препаратів і навіть від якості води. Перед застосуванням у суміші з іншими препаратами рекомендується обов’язково провести тест на фізико-хімічну сумісність компонентів.</p>
-            <p><b>Приготування та норма витрати препарату, робочого розчину: </b> Для приготування робочого розчину необхідну кількість препарату при працюючій мішалці додають безпосередньо в заповнений до половини водою бак оприскувача. Потім заповнюють бак водою до кінця. Рекомендована норма витрати робочої рідини 200-400 л/га. </p>
+        </div><!-- row -->
+        <div class="row">
+          <aside class="sidebar col-md-3">
+            <div class="sidebar__menu">
+              <ul>
+                <li><a href="#">Насіння</a></li>
+                <li class="active"><a href="#">Засоби захисту рослин</a></li>
+                <li><a href="#">ПАР, прилипачі, плівкоутворювачі</a></li>
+                <li><a href="#">Позакореневі листкові підживлення</a></li>
+              </ul>
+            </div><!-- sidebar__menu -->
+            <div class="sidebar__filters">
+              <form action="" method="get">
+                <ul>
+                  <li>
+                    <div class="select-wrap">
+                      <select name="" id="cultures">
+                        <option value="0">Культури</option>
+                        <option value="1">Культури</option>
+                        <option value="2">Культури</option>
+                        <option value="3">Культури</option>
+                        <option value="4">Культури</option>
+                        <option value="5">Культури</option>
+                      </select>
+                    </div><!-- select-wrap -->
+                  </li>
+                  <li>
+                    <div class="select-wrap">
+                      <select name="" id="substance">
+                        <option value="0">Діюча речовина</option>
+                        <option value="1">Діюча речовина</option>
+                        <option value="2">Діюча речовина</option>
+                        <option value="3">Діюча речовина</option>
+                        <option value="4">Діюча речовина</option>
+                        <option value="5">Діюча речовина</option>
+                      </select>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="select-wrap">
+                      <select name="" id="safe">
+                        <option value="0">Засоби захисту рослин lorem dolor</option>
+                        <option value="1">Засоби захисту</option>
+                        <option value="2">Засоби захисту</option>
+                        <option value="3">Засоби захисту</option>
+                        <option value="4">Засоби захисту</option>
+                        <option value="5">Засоби захисту</option>
+                      </select>
+                    </div><!-- select-wrap -->
+                  </li>
+                  <li>
+                    <div class="select-wrap">
+                      <select name="" id="manufacturers">
+                        <option value="0">Виробники</option>
+                        <option value="1">Miller Chemical & Fertilizer Corp (USA)</option>
+                        <option value="2">Valagro</option>
+                        <option value="3">Адама</option>
+                        <option value="4">Аріста</option>
+                        <option value="5">Байєр</option>
+                        <option value="6">Байєр</option>
+                        <option value="7">Байєр</option>
+                      </select>
+                    </div>
+                  </li>
+                </ul>
+              </form>
+            </div>
+          </aside><!-- sidebar -->
+          <section class="content-text col-md-9">
+            <h4>Засоби захисту рослин</h4>
+            <div class="instructions">
+              <h4>Імпера Голд® КЕ</h4>
+              <p><b>Діюча речовина:</b> пропіконазол, 90 г/л + прохлораз, 400 г/л</p>
+              <p><b>Призначення препарату:</b><br> Імпера Голд® - комбінований контактно-системний фунгіцид профілактичної та лікувальної дії для захисту зернових культур, соняшнику та сої від широкого спектру хвороб. пропіконазол, 90 г/л + прохлораз, 400 г/л</p>
+              <p><b>Класифікація ВООЗ, токсичність:</b><br> Клас небезпечності – 3 Посвідчення про державну реєстрацію: серія А № 04347</p>
+              <p><b>Пакування: </b>5 л</p>
+              <p><b>Гарантійний термін зберігання: </b><br>2 роки у невідкритій та неушкодженій заводській упаковці за відповідних умов зберігання при температурі від +5˚С до +30 ˚С.</p>
+              <p><b>Механізм дії препарту: </b><br>До складу препарату входять дві діючі речовини, які належать до класу триазольних та імідазольних сполук. Препарату властива профілактична та лікувальна дія.  У тканинах рослин Імпера Голд® має локально-системну і трансламінарну дію. Фунгіцидна активність проявляється за рахунок пригнічення біосинтезу ергостиролу в патогенів.</p>
+              <p><b>Сумісність з іншими препаратами: </b><br>Імпера Голд®  може використовуватися в суміші з іншими фунгіцидами, інсектицидами та гербіцидами, за виключенням високолужних сполук. Проте, його сумісність залежить від формуляції інших препаратів і навіть від якості води. Перед застосуванням у суміші з іншими препаратами рекомендується обов’язково провести тест на фізико-хімічну сумісність компонентів.</p>
+              <p><b>Приготування та норма витрати препарату, робочого розчину: </b> Для приготування робочого розчину необхідну кількість препарату при працюючій мішалці додають безпосередньо в заповнений до половини водою бак оприскувача. Потім заповнюють бак водою до кінця. Рекомендована норма витрати робочої рідини 200-400 л/га. </p>
 
-            <table>
-              <tr>
-                <th>Культура</th>
-                <th>Норма витрати препарату,<br>л/га</th>
-                <th>Шкідлиий об’єкт</th>
-                <th>Спосіб, час обробок</th>
-                <th>Максимальна кратність обробок</th>
-              </tr>
-              <tr>
-                <td>Пшениця&nbsp;озима</td>
-                <td>0,8-1,2</td>
-                <td>Борошниста роса, іржа, септоріоз, церкоспорельоз, фузаріоз колосу, піренофороз</td>
-                <td>Обприскування в період вегетації</td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td>Ячмінь&nbsp;ярий</td>
-                <td>0,8-1,2</td>
-                <td>Борошниста роса, іржа, септоріоз, гельмінтоспоріозні плямистості листя</td>
-                <td>Обприскування в період вегетації</td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td>Соняшник</td>
-                <td>1,0 – 1,5</td>
-                <td>Іржа, альтернаріоз</td>
-                <td>Обприскування в період вегетації</td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td>Соя</td>
-                <td>0,8 – 1,5</td>
-                <td>Антракноз, септоріоз, аскохітоз, церкоспороз</td>
-                <td>Обприскування в період вегетації</td>
-                <td>2</td>
-              </tr>
-              
+              <table class="col-md-9 hidden-xs">
+                <tr>
+                  <th>Культура</th>
+                  <th>Норма витрати препарату,<br>л/га</th>
+                  <th>Шкідлиий об’єкт</th>
+                  <th>Спосіб, час обробок</th>
+                  <th>Максимальна кратність обробок</th>
+                </tr>
+                <tr>
+                  <td>Пшениця&nbsp;озима</td>
+                  <td>0,8-1,2</td>
+                  <td>Борошниста роса, іржа, септоріоз, церкоспорельоз, фузаріоз колосу, піренофороз</td>
+                  <td>Обприскування в період вегетації</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>Ячмінь&nbsp;ярий</td>
+                  <td>0,8-1,2</td>
+                  <td>Борошниста роса, іржа, септоріоз, гельмінтоспоріозні плямистості листя</td>
+                  <td>Обприскування в період вегетації</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>Соняшник</td>
+                  <td>1,0 – 1,5</td>
+                  <td>Іржа, альтернаріоз</td>
+                  <td>Обприскування в період вегетації</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>Соя</td>
+                  <td>0,8 – 1,5</td>
+                  <td>Антракноз, септоріоз, аскохітоз, церкоспороз</td>
+                  <td>Обприскування в період вегетації</td>
+                  <td>2</td>
+                </tr>
+              </table>
 
-            </table>
-
-            <p><b>Рекомендації щодо застосування: </b><br>
-              Найкращий ефект досягається у разі застосування препарату профілактично та на ранніх стадіях розвитку захворювань, враховуючи погодні умови і ризик ураження культури тією чи іншою хворобою. Для досягнення максимальної ефективності необхідно забезпечити рівномірне і достатнє покриття оброблюваних рослин робочим розчином препарату.
-              Імпера Голд® адсорбується листям рослин протягом години і проявляє швидку фунгіцидну дію на фітопатогенні збудники. Препарат володіє подовженою персистентністю. Період захисної дії становить 2 – 3 тижні і залежить від виду та ступеня розвитку хвороб і кліматичних умов.
-              Строк виходу людей на оброблені площі для проведення механізованих робіт – через 3 доби після обприскування.
-              Строк очікування до збору урожаю зернових, соняшнику, сої – 30 днів після останньої обробки.відповідних умов зберігання при температурі від +5˚С до +30 ˚С.</p>
-            <p><b>Вимоги щодо зберігання: </b><br>
-              Препарат необхідно зберігати в герметичній заводській упаковці з етикеткою у прохолодному, сухому, добре вентильованому приміщенні, спеціально призначеному для зберігання пестицидів і агрохімікатів. Зберігати окремо від харчових продуктів, напоїв, насіння та кормів для тварин.  Запобігати контакту з вогнем та нагрівальними приладами. Уникати прямого сонячного </p>
-          </div><!-- instructions -->
-        </section><!-- content-text -->
+              <p><b>Рекомендації щодо застосування: </b><br>
+                Найкращий ефект досягається у разі застосування препарату профілактично та на ранніх стадіях розвитку захворювань, враховуючи погодні умови і ризик ураження культури тією чи іншою хворобою. Для досягнення максимальної ефективності необхідно забезпечити рівномірне і достатнє покриття оброблюваних рослин робочим розчином препарату.
+                Імпера Голд® адсорбується листям рослин протягом години і проявляє швидку фунгіцидну дію на фітопатогенні збудники. Препарат володіє подовженою персистентністю. Період захисної дії становить 2 – 3 тижні і залежить від виду та ступеня розвитку хвороб і кліматичних умов.
+                Строк виходу людей на оброблені площі для проведення механізованих робіт – через 3 доби після обприскування.
+                Строк очікування до збору урожаю зернових, соняшнику, сої – 30 днів після останньої обробки.відповідних умов зберігання при температурі від +5˚С до +30 ˚С.</p>
+              <p><b>Вимоги щодо зберігання: </b><br>
+                Препарат необхідно зберігати в герметичній заводській упаковці з етикеткою у прохолодному, сухому, добре вентильованому приміщенні, спеціально призначеному для зберігання пестицидів і агрохімікатів. Зберігати окремо від харчових продуктів, напоїв, насіння та кормів для тварин.  Запобігати контакту з вогнем та нагрівальними приладами. Уникати прямого сонячного </p>
+            </div><!-- instructions -->
+          </section><!-- content-text -->
+        </div><!-- row -->
       </div><!-- content -->
     </div><!-- center -->
   </div><!-- wrapper__item -->
 
-  <div class="wrapper__item">
-    <div class="center">
+  <div class="wrapper__item container">
+    <div class="center row">
       <div class="pagination">
         <ul>
           <li class="pagination--active"><a href="#">1</a></li>
@@ -220,91 +233,101 @@
           <li><a href="#">30</a></li>
         </ul>
       </div><!-- pagination -->
-      <div class="clear"></div>
     </div><!-- center -->
   </div><!-- wrapper__item -->
 
-  <div class="wrapper__item">
+  <!-- FOOTER -->
+  <div class="wrapper__item container-fluid">
     <footer class="footer-wrapper">
       <div class="footer center">
-        <div class="footer__logo">
-          <img src="images/logo.png" alt="">
-          <div class="footer__social">
-            <ul>
-              <li><a href="#"><img src="images/gplus.png" alt=""></a></li>
-              <li><a href="#"><img src="images/vk.png" alt=""></a></li>
-              <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
-              <li><a href="#"><img src="images/instagram.png" alt=""></a></li>
-            </ul>
-          </div><!-- footer__social -->
-        </div><!-- footer__logo -->
-        <div class="footer__menu menu">
-          <div class="menu__item menu__item1">
-            <h4>Про компанію</h4>
-            <ul>
-              <li><a href="about.html">Про нас</a></li>
-              <li><a href="vacation.html">Кар'єра і вакансії</a></li>
-            </ul>
-          </div><!-- menu__item -->
-          <div class="menu__item menu__item2">
-            <h4>Каталог продукції</h4>
-            <ul>
-              <li><a href="#">Насіння</a></li>
-              <li><a href="#">Засоби захисту рослин</a></li>
-              <li><a href="#">ПАР, прилипачі, плівкоутворювачі</a></li>
-              <li><a href="#">Позакорневі листкові підживлення</a></li>
-            </ul>
-          </div><!-- menu__item -->
-          <div class="menu__item menu__item3">
-            <h4>Медіа</h4>
-            <ul>
-              <li><a href="news.html">Статті</a></li>
-              <li><a href="news.html">Акції</a></li>
-            </ul>
-          </div><!-- menu__item -->
-          <div class="menu__item menu__item4">
-            <h4>Новини</h4>
-          </div><!-- menu__item -->
-          <div class="menu__item menu__item5">
-            <h4>Контакти</h4>
-          </div><!-- menu__item -->
-        </div><!-- menu -->
-        <div class="footer__contacts">
-          <p><b>тел./факс:</b> 04350-3-16-25</p>
-          <p><b>моб.:</b> 099-553-91-54, 097-394-15-04</p>
-          <p><b>e-mail:</b> podil-agrohimservise@ukr.net</p>
-          <p><b>Адреса:</b> вул. Леніна,233, смт. Вапнярка, Томашпільський р-н, Вінницька обл., 24240</p>
-        </div><!-- footer__contacts -->
-        <div class="footer__copy">
-          <p><b>Поділля-Агрохімсервіс © 2016.</b> Всі права захищені</p>
-          <div class="abdesign">
-            <p>Сайт розроблено компанією</p>
-            <a href="http://www.abdesign.kiev.ua" target="_blank"><img src="images/abdesign.png" alt=""></a>
-          </div>
-        </div><!-- footer__copy -->
-      </div><!-- footer-wrapper -->
-    </footer><!-- footer -->
+        <div class="container">
+          <div class="row">
+            <div class="footer__logo">
+              <img src="images/logo.png" alt="alt-text"/>
+              <div class="footer__social">
+                <ul>
+                  <li><a href="#"><img src="images/gplus.png" alt="alt-text"/></a></li>
+                  <li><a href="#"><img src="images/vk.png" alt="alt-text"/></a></li>
+                  <li><a href="#"><img src="images/facebook.png" alt="alt-text"/></a></li>
+                  <li><a href="#"><img src="images/instagram.png" alt="alt-text"/></a></li>
+                </ul>
+              </div><!-- footer__social -->
+            </div><!-- footer__logo -->
+          </div><!-- row -->
+          <div class="row">
+            <div class="footer__menu menu">
+              <div class="menu__item col-sm-3">
+                <h4>Про компанію</h4>
+                <ul>
+                  <li><a href="about.html">Про нас</a></li>
+                  <li><a href="vacation.html">Кар'єра і вакансії</a></li>
+                </ul>
+              </div><!-- menu__item -->
+              <div class="menu__item col-sm-3">
+                <h4>Каталог продукції</h4>
+                <ul>
+                  <li><a href="#">Насіння</a></li>
+                  <li><a href="#">Засоби захисту рослин</a></li>
+                  <li><a href="#">ПАР, прилипачі, плівкоутворювачі</a></li>
+                  <li><a href="#">Позакорневі листкові підживлення</a></li>
+                </ul>
+              </div><!-- menu__item -->
+              <div class="menu__item col-sm-2">
+                <h4>Медіа</h4>
+                <ul>
+                  <li><a href="news.html">Статті</a></li>
+                  <li><a href="news.html">Акції</a></li>
+                </ul>
+              </div><!-- menu__item -->
+              <div class="menu__item col-sm-2">
+                <h4>Новини</h4>
+              </div><!-- menu__item -->
+              <div class="menu__item col-sm-1">
+                <h4>Контакти</h4>
+              </div><!-- menu__item -->
+            </div><!-- menu -->
+          </div><!-- row -->
+          <div class="row">
+            <div class="footer__contacts">
+              <p><b>тел./факс:</b> 04350-3-16-25</p>
+              <p><b>моб.:</b> 099-553-91-54, 097-394-15-04</p>
+              <p><b>e-mail:</b> podil-agrohimservise@ukr.net</p>
+              <p><b>Адреса:</b> вул. Леніна,233, смт. Вапнярка, Томашпільський р-н, Вінницька обл., 24240</p>
+            </div><!-- footer__contacts -->
+          </div><!-- row -->
+          <div class="row">
+            <div class="footer__copy">
+              <p><b>Поділля-Агрохімсервіс © 2016.</b> Всі права захищені</p>
+              <div class="abdesign col-sm-4">
+                <p>Сайт розроблено компанією</p>
+                <a href="http://www.abdesign.kiev.ua" target="_blank"><img src="images/abdesign.png" alt="alt-text"/></a>
+              </div><!-- abdesign -->
+            </div><!-- footer__copy -->
+          </div><!-- row -->
+        </div><!-- container -->
+      </div><!-- footer -->
+    </footer><!-- footer-wrapper -->
   </div><!-- wrapper__item -->
 </div><!-- wrapper -->
 
 <!-- Important Owl stylesheet -->
 <link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css">
-
-<!-- Default Theme -->
 <link rel="stylesheet" href="libs/owl-carousel/owl.theme.css">
+
+<!--<link rel="stylesheet" href="libs/bxslider/jquery.bxslider.css">-->
 
 <!-- main stylesheet -->
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/media.css">
 
 <!-- scripts -->
 <script src="libs/jquery/jquery.min.js"></script>
 <script src="libs/jquery/jquery-ui.min.js"></script>
-<!--<script src="libs/jquery/jquery.jscrollpane.min.js"></script>-->
+<script src="libs/jquery/jquery.jscrollpane.min.js"></script>
 <script src="libs/jquery/jquery.mousewheel.js"></script>
 <script src="libs/owl-carousel/owl.carousel.min.js"></script>
 <!--<script src="libs/simplr-smoothscroll-master/smoothscroll.min.js"></script>-->
 <!--<script src="libs/simplr-smoothscroll-master/mousewheel.min.js"></script>-->
 <script src="js/common.js"></script>
-
 </body>
 </html>
