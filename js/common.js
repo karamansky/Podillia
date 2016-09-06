@@ -60,7 +60,17 @@ $(function(){
 		//selects - filters
 		$("#cultures, #substance, #safe, #manufacturers").selectmenu();
 
-		
+		$(".ui-widget.ui-widget-content").niceScroll({
+
+			cursorcolor       : "#851900",
+			cursorborder      : "0px solid #851900",
+			cursorborderradius: "0",
+			railpadding       : {top:0,right:10,left:0,bottom:0},
+			// background				: "#bababa",
+			bouncescroll			: true,
+			cursorminheight		: "70"
+
+		});
 
 
 	});

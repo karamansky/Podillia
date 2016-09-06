@@ -168,7 +168,7 @@
       mousescrollstep:8*3,
       touchbehavior:false,
       hwacceleration:true,
-      usetransition:true,
+      usetransition:false,
       boxzoom:false,
       dblclickzoom:true,
       gesturezoom:true,
@@ -692,8 +692,8 @@
             '-webkit-border-radius':self.opt.cursorborderradius,
             '-moz-border-radius':self.opt.cursorborderradius,
             'border-radius':self.opt.cursorborderradius
-          });   
-          
+          });
+
           cursor.wborder = parseFloat(cursor.outerWidth() - cursor.innerWidth());
           self.cursorh = cursor;
           
@@ -731,7 +731,8 @@
             if (self.win.css('position')=='static') self.css(self.win,{'position':'relative'});
             var bd = (self.win[0].nodeName == 'HTML') ? self.body : self.win;
             if (self.zoom) {
-              self.zoom.css({position:"absolute",top:1,right:0,"margin-right":rail.width+4});
+              // self.zoom.css({position:"absolute",top:1,right:0,"margin-right":rail.width+4});
+              self.zoom.css({position:"absolute",top:1,right:0,"margin-right":15});
               bd.append(self.zoom);
             }
             rail.css({position:"absolute",top:0});

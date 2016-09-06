@@ -40,11 +40,18 @@
     top: 370px;
   }
   .shadow{
-    background-position: -120px -55px;
+    background-position: -140px -55px;
+    width: 970px;
   }
   .instructions tr td,
   .instructions tr th {
     padding: 8px;
+  }
+  .ui-widget.ui-widget-content {
+    width: 183px!important;
+  }
+  .border{
+    display: none;
   }
 
 }
@@ -62,6 +69,12 @@
 }
 
 @media (max-width: 992px){
+  .shadow{
+    display: none;
+  }
+  .menu {
+    margin-bottom: 30px;
+  }
   .tablet-hidden{
     display: none;
   }
@@ -133,6 +146,9 @@
   .interactive__item img{
     width: 100%;
   }
+  .ui-widget.ui-widget-content {
+    width: 690px!important;
+  }
 }
 
 @media (max-width: 768px){
@@ -164,5 +180,33 @@
   .content-main-head{
     margin-top: 30px;
   }
+  .ui-widget.ui-widget-content {
+    width: 100%!important;
+  }
+  .image-container img{
+    width: 100%;
+  }
+  .media .icon-box {
+    margin: 20px auto;
+  }
 
+}
+
+@media (max-width: 450px){
+  h1{
+    line-height: 58px;
+  }
+  .seed .icon-box,
+  .gerbicid .icon-box,
+  .fertilizers .icon-box,
+  .image-box .icon-box {
+    width: 150px;
+    height: 150px;
+  }
+  .icon-box img{
+    width: 100%;
+  }
+  .field .owl-controls.clickable {
+    left: 27%;
+  }
 }
