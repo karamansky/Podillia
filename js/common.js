@@ -3,6 +3,14 @@
 $(function(){
 	$(document).ready(function() {
 
+		//smoothScroll
+		$('div.scroll-mouse').on('click', function() {
+			var top = $("#catalog").offset().top;
+			$('body,html').animate({scrollTop: top}, 1500);
+
+		});
+
+
 		//owl carousel init
 		$(".owl-carousel").owlCarousel({
 			items							: 3,
