@@ -684,7 +684,7 @@ span.date{
 }
 .contacts .center{
   /*padding: 0 30px;*/
-  height: inherit;
+  /*height: inherit;*/
   position: relative;
 }
 .contacts__head{
@@ -692,12 +692,12 @@ span.date{
 }
 .contacts__map{
   height: 470px;
-  background: url("../images/contacts-map.jpg") center no-repeat;
+  /*background: url("../images/contacts-map.jpg") center no-repeat;*/
 }
 .contacts .pp{
   position: absolute;
   left: 550px;
-  top: -100px;
+  bottom: 410px;
   background-color: #dddddd;
   padding: 55px 50px;
   -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.89);
@@ -711,7 +711,7 @@ span.date{
 .contacts .phone{
   position: absolute;
   left: 30px;
-  top: 100px;
+  bottom: 170px;
   display: inline-block;
   background-color: #861c00;
   padding: 15px 30px;
@@ -723,7 +723,7 @@ span.date{
 .contacts .address{
   position: absolute;
   right: 30px;
-  top: 340px;
+  bottom: -40px;
   display: inline-block;
   background-color: #00a84a;
   padding: 15px 30px;
@@ -766,6 +766,9 @@ footer{
   list-style: disc;
   list-style-position: outside;
   margin-left: 20px;
+}
+.footer__menu{
+  padding-bottom: 30px;
 }
 .footer__menu .menu__item{
   float: left;

@@ -71,7 +71,7 @@ $(function(){
 			cursorminheight		: "70"
 
 		});
-
+		
 
 	});
 });

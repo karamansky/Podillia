@@ -2,13 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa27b9f3-434d-43a4-a1c9-d21f977c2eb8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog-2.html" afterPath="$PROJECT_DIR$/catalog-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog.html" afterPath="$PROJECT_DIR$/catalog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/abdesign.png" afterPath="$PROJECT_DIR$/images/abdesign.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/about-nasinnia.jpg" afterPath="$PROJECT_DIR$/images/about-nasinnia.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/about-us-peoples-and-icons.jpg" afterPath="$PROJECT_DIR$/images/about-us-peoples-and-icons.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/about-zahist.jpg" afterPath="$PROJECT_DIR$/images/about-zahist.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/about-zerno.jpg" afterPath="$PROJECT_DIR$/images/about-zerno.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/adengo.png" afterPath="$PROJECT_DIR$/images/adengo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/agritox.png" afterPath="$PROJECT_DIR$/images/agritox.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/alister.png" afterPath="$PROJECT_DIR$/images/alister.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/aviator.png" afterPath="$PROJECT_DIR$/images/aviator.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/beet.png" afterPath="$PROJECT_DIR$/images/beet.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/betanal.png" afterPath="$PROJECT_DIR$/images/betanal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/catalog-bg.jpg" afterPath="$PROJECT_DIR$/images/catalog-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/catalog.png" afterPath="$PROJECT_DIR$/images/catalog.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/cherkaska.jpg" afterPath="$PROJECT_DIR$/images/cherkaska.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/collage.png" afterPath="$PROJECT_DIR$/images/collage.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/contacts-map.jpg" afterPath="$PROJECT_DIR$/images/contacts-map.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/contacts.png" afterPath="$PROJECT_DIR$/images/contacts.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/corn.png" afterPath="$PROJECT_DIR$/images/corn.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/derozal.png" afterPath="$PROJECT_DIR$/images/derozal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/facebook.png" afterPath="$PROJECT_DIR$/images/facebook.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/field-bg.jpg" afterPath="$PROJECT_DIR$/images/field-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/fumiganti.png" afterPath="$PROJECT_DIR$/images/fumiganti.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/fungicidi.png" afterPath="$PROJECT_DIR$/images/fungicidi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/gerbicidi.png" afterPath="$PROJECT_DIR$/images/gerbicidi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/gitomirska.jpg" afterPath="$PROJECT_DIR$/images/gitomirska.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/goroh.png" afterPath="$PROJECT_DIR$/images/goroh.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/gplus.png" afterPath="$PROJECT_DIR$/images/gplus.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon-arrow-down.png" afterPath="$PROJECT_DIR$/images/icon-arrow-down.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon-arrow-left.png" afterPath="$PROJECT_DIR$/images/icon-arrow-left.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon-catalog.png" afterPath="$PROJECT_DIR$/images/icon-catalog.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon-contacts.png" afterPath="$PROJECT_DIR$/images/icon-contacts.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon-gortati.png" afterPath="$PROJECT_DIR$/images/icon-gortati.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon-man-with-company.png" afterPath="$PROJECT_DIR$/images/icon-man-with-company.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon-media.png" afterPath="$PROJECT_DIR$/images/icon-media.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon-mouse.png" afterPath="$PROJECT_DIR$/images/icon-mouse.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon-news.png" afterPath="$PROJECT_DIR$/images/icon-news.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon-pastry-cream.png" afterPath="$PROJECT_DIR$/images/icon-pastry-cream.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon-seeds.png" afterPath="$PROJECT_DIR$/images/icon-seeds.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon-select-region.png" afterPath="$PROJECT_DIR$/images/icon-select-region.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon-shield.png" afterPath="$PROJECT_DIR$/images/icon-shield.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon-trigger-sprite.png" afterPath="$PROJECT_DIR$/images/icon-trigger-sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon-watering-can.png" afterPath="$PROJECT_DIR$/images/icon-watering-can.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/insekticidi.png" afterPath="$PROJECT_DIR$/images/insekticidi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/instagram.png" afterPath="$PROJECT_DIR$/images/instagram.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/kartoshka.png" afterPath="$PROJECT_DIR$/images/kartoshka.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/kirovogradska.jpg" afterPath="$PROJECT_DIR$/images/kirovogradska.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/koronet.png" afterPath="$PROJECT_DIR$/images/koronet.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/kyivska.jpg" afterPath="$PROJECT_DIR$/images/kyivska.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/last-news-1.jpg" afterPath="$PROJECT_DIR$/images/last-news-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/last-news-2.jpg" afterPath="$PROJECT_DIR$/images/last-news-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/last-news-3.jpg" afterPath="$PROJECT_DIR$/images/last-news-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/last-news-4.jpg" afterPath="$PROJECT_DIR$/images/last-news-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/li-style-bg.png" afterPath="$PROJECT_DIR$/images/li-style-bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo-arysta.png" afterPath="$PROJECT_DIR$/images/logo-arysta.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo-chemtura.png" afterPath="$PROJECT_DIR$/images/logo-chemtura.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo-sumiagro.png" afterPath="$PROJECT_DIR$/images/logo-sumiagro.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo-terravita.png" afterPath="$PROJECT_DIR$/images/logo-terravita.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo.png" afterPath="$PROJECT_DIR$/images/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/man-with-company.png" afterPath="$PROJECT_DIR$/images/man-with-company.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/media.png" afterPath="$PROJECT_DIR$/images/media.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/menu-shadow.png" afterPath="$PROJECT_DIR$/images/menu-shadow.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/nav-arrow-sprite.png" afterPath="$PROJECT_DIR$/images/nav-arrow-sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/news-img-slide.jpg" afterPath="$PROJECT_DIR$/images/news-img-slide.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/otraviteli.png" afterPath="$PROJECT_DIR$/images/otraviteli.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/poltavska.jpg" afterPath="$PROJECT_DIR$/images/poltavska.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/previkur.png" afterPath="$PROJECT_DIR$/images/previkur.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ripak.png" afterPath="$PROJECT_DIR$/images/ripak.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/rodenticidi.png" afterPath="$PROJECT_DIR$/images/rodenticidi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/soy.png" afterPath="$PROJECT_DIR$/images/soy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/sunflower.png" afterPath="$PROJECT_DIR$/images/sunflower.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ukraine-map.jpg" afterPath="$PROJECT_DIR$/images/ukraine-map.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/vinnitska.jpg" afterPath="$PROJECT_DIR$/images/vinnitska.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/vk.png" afterPath="$PROJECT_DIR$/images/vk.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/zernovie.png" afterPath="$PROJECT_DIR$/images/zernovie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Стрелки.png" afterPath="$PROJECT_DIR$/images/Стрелки.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contacts.html" afterPath="$PROJECT_DIR$/contacts.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media.css" afterPath="$PROJECT_DIR$/css/media.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common.js" afterPath="$PROJECT_DIR$/js/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/jquery/jquery.nicescroll.js" afterPath="$PROJECT_DIR$/libs/jquery/jquery.nicescroll.js" />
     </list>
     <ignored path="AgroPortal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,15 +102,17 @@
     <favorites_list name="AgroPortal" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.65718883">
+    <splitter split-orientation="horizontal" split-proportion="0.64713544">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="616">
+                  <caret line="28" column="108" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="108" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -44,49 +120,21 @@
           <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/common.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="777">
-                  <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+                <state relative-caret-position="689">
+                  <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="jquery.nicescroll.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/libs/jquery/jquery.nicescroll.js">
+          <file leaf-file-name="contacts.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/contacts.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-971">
-                  <caret line="1938" column="8" selection-start-line="1938" selection-start-column="8" selection-end-line="1938" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="jquery-ui.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/jquery-ui.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="294">
-                  <caret line="903" column="19" selection-start-line="903" selection-start-column="19" selection-end-line="903" selection-end-column="19" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="catalog.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/catalog.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="486">
-                  <caret line="374" column="0" selection-start-line="374" selection-start-column="0" selection-end-line="382" selection-end-column="36" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="catalog-2.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/catalog-2.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="684">
-                  <caret line="313" column="36" selection-start-line="313" selection-start-column="36" selection-end-line="313" selection-end-column="36" />
-                  <folding />
+                <state relative-caret-position="286">
+                  <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -98,8 +146,18 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="329">
-                  <caret line="880" column="16" selection-start-line="880" selection-start-column="16" selection-end-line="880" selection-end-column="16" />
+                <state relative-caret-position="637">
+                  <caret line="725" column="16" selection-start-line="725" selection-start-column="16" selection-end-line="725" selection-end-column="16" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="media.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/media.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="790">
+                  <caret line="218" column="12" selection-start-line="218" selection-start-column="12" selection-end-line="218" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
@@ -132,19 +190,19 @@
         <option value="$PROJECT_DIR$/css/jquery-ui.css" />
         <option value="$PROJECT_DIR$/single-news.html" />
         <option value="$PROJECT_DIR$/clients.html" />
-        <option value="$PROJECT_DIR$/contacts.html" />
         <option value="$PROJECT_DIR$/news.html" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/about-us.html" />
         <option value="$USER_HOME$/Desktop/test/css/style.css" />
         <option value="$USER_HOME$/Desktop/test/index.html" />
-        <option value="$PROJECT_DIR$/js/common.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/libs/jquery/jquery.nicescroll.js" />
         <option value="$PROJECT_DIR$/catalog.html" />
-        <option value="$PROJECT_DIR$/css/media.css" />
         <option value="$PROJECT_DIR$/catalog-2.html" />
+        <option value="$PROJECT_DIR$/js/common.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/media.css" />
+        <option value="$PROJECT_DIR$/contacts.html" />
       </list>
     </option>
   </component>
@@ -189,7 +247,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,9 +265,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AgroPortal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AgroPortal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,7 +388,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1298">
           <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -338,7 +412,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12650">
           <caret line="575" column="2" selection-start-line="575" selection-start-column="2" selection-end-line="600" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -369,7 +445,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10934">
           <caret line="497" column="0" selection-start-line="497" selection-start-column="0" selection-end-line="497" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -393,7 +471,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10670">
           <caret line="485" column="25" selection-start-line="485" selection-start-column="25" selection-end-line="485" selection-end-column="25" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -461,9 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -471,7 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1584">
           <caret line="96" column="47" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -487,15 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="188" column="48" selection-start-line="188" selection-start-column="48" selection-end-line="188" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -503,7 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="97" column="44" selection-start-line="97" selection-start-column="44" selection-end-line="97" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -511,7 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -519,7 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -527,7 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="746">
           <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -535,17 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/jquery-ui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="903" column="19" selection-start-line="903" selection-start-column="19" selection-end-line="903" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -553,46 +605,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/common.js">
+    <entry file="file://$PROJECT_DIR$/catalog-2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/jquery/jquery.nicescroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-971">
-          <caret line="1938" column="8" selection-start-line="1938" selection-start-column="8" selection-end-line="1938" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/media.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="880" column="16" selection-start-line="880" selection-start-column="16" selection-end-line="880" selection-end-column="16" />
+        <state relative-caret-position="684">
+          <caret line="313" column="36" selection-start-line="313" selection-start-column="36" selection-end-line="313" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -605,11 +624,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog-2.html">
+    <entry file="file://$PROJECT_DIR$/css/jquery-ui.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="313" column="36" selection-start-line="313" selection-start-column="36" selection-end-line="313" selection-end-column="36" />
+        <state relative-caret-position="294">
+          <caret line="903" column="19" selection-start-line="903" selection-start-column="19" selection-end-line="903" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/jquery/jquery.nicescroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1938" column="8" selection-start-line="1938" selection-start-column="8" selection-end-line="1938" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="790">
+          <caret line="218" column="12" selection-start-line="218" selection-start-column="12" selection-end-line="218" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="725" column="16" selection-start-line="725" selection-start-column="16" selection-end-line="725" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="108" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="108" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

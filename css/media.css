@@ -135,10 +135,12 @@
     left: 300px;
     top: 280px;
   }
+  .contacts .phone {
+    bottom: 240px;
+  }
   .contacts .address {
-    left: 30px;
-    top: 320px;
-    position: relative;
+    bottom: 40px;
+    right: 300px;
   }
   .row .target-interactive__item{
     display: none;
@@ -208,5 +210,12 @@
   }
   .field .owl-controls.clickable {
     left: 27%;
+  }
+  .contacts .address {
+    bottom: 0px;
+    right: 0px;
+  }
+  .contacts .phone {
+    left: 0;
   }
 }
